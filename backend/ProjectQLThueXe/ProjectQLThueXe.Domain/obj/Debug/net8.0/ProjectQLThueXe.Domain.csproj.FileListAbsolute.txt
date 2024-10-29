@@ -12,3 +12,4 @@ D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ProjectQLThueXe.Domain\obj\Debug
 D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ProjectQLThueXe.Domain\obj\Debug\net8.0\ProjectQLThueXe.Domain.pdb
 D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ProjectQLThueXe.Domain\obj\Debug\net8.0\ProjectQLThueXe.Domain.genruntimeconfig.cache
 D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ProjectQLThueXe.Domain\obj\Debug\net8.0\ref\ProjectQLThueXe.Domain.dll
+D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ProjectQLThueXe.Domain\obj\Debug\net8.0\ProjectQLThueXe.Domain.sourcelink.json

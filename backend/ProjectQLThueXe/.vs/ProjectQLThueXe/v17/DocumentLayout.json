@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5F88680C-BF44-4026-B775-7F4B346DF412}|ProjectQLThueXe.WebAPI\\ProjectQLThueXe.WebAPI.csproj|d:\\cozwork\\project_qlxe\\backend\\projectqlthuexe\\projectqlthuexe.webapi\\controllers\\cartypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F88680C-BF44-4026-B775-7F4B346DF412}|ProjectQLThueXe.WebAPI\\ProjectQLThueXe.WebAPI.csproj|solutionrelative:projectqlthuexe.webapi\\controllers\\cartypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E42015F3-CBF9-4198-8E7E-B50413358046}|ProjectQLThueXe.Infrastructure\\ProjectQLThueXe.Infrastructure.csproj|d:\\cozwork\\project_qlxe\\backend\\projectqlthuexe\\projectqlthuexe.infrastructure\\repositories\\ktrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E42015F3-CBF9-4198-8E7E-B50413358046}|ProjectQLThueXe.Infrastructure\\ProjectQLThueXe.Infrastructure.csproj|solutionrelative:projectqlthuexe.infrastructure\\repositories\\ktrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5F88680C-BF44-4026-B775-7F4B346DF412}|ProjectQLThueXe.WebAPI\\ProjectQLThueXe.WebAPI.csproj|d:\\cozwork\\project_qlxe\\backend\\projectqlthuexe\\projectqlthuexe.webapi\\controllers\\ktscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F88680C-BF44-4026-B775-7F4B346DF412}|ProjectQLThueXe.WebAPI\\ProjectQLThueXe.WebAPI.csproj|solutionrelative:projectqlthuexe.webapi\\controllers\\ktscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{36A305F8-4127-4F3A-A0A0-96155B96395A}|ApplicationCore\\ProjectQLThueXe.Application.csproj|d:\\cozwork\\project_qlxe\\backend\\projectqlthuexe\\applicationcore\\kt\\commands\\updatektcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36A305F8-4127-4F3A-A0A0-96155B96395A}|ApplicationCore\\ProjectQLThueXe.Application.csproj|solutionrelative:applicationcore\\kt\\commands\\updatektcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5F88680C-BF44-4026-B775-7F4B346DF412}|ProjectQLThueXe.WebAPI\\ProjectQLThueXe.WebAPI.csproj|d:\\cozwork\\project_qlxe\\backend\\projectqlthuexe\\projectqlthuexe.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F88680C-BF44-4026-B775-7F4B346DF412}|ProjectQLThueXe.WebAPI\\ProjectQLThueXe.WebAPI.csproj|solutionrelative:projectqlthuexe.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36A305F8-4127-4F3A-A0A0-96155B96395A}|ApplicationCore\\ProjectQLThueXe.Application.csproj|d:\\cozwork\\project_qlxe\\backend\\projectqlthuexe\\applicationcore\\kt\\commands\\updatektcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36A305F8-4127-4F3A-A0A0-96155B96395A}|ApplicationCore\\ProjectQLThueXe.Application.csproj|solutionrelative:applicationcore\\kt\\commands\\updatektcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5F88680C-BF44-4026-B775-7F4B346DF412}|ProjectQLThueXe.WebAPI\\ProjectQLThueXe.WebAPI.csproj|d:\\cozwork\\project_qlxe\\backend\\projectqlthuexe\\projectqlthuexe.webapi\\controllers\\cartypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F88680C-BF44-4026-B775-7F4B346DF412}|ProjectQLThueXe.WebAPI\\ProjectQLThueXe.WebAPI.csproj|solutionrelative:projectqlthuexe.webapi\\controllers\\cartypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36A305F8-4127-4F3A-A0A0-96155B96395A}|ApplicationCore\\ProjectQLThueXe.Application.csproj|d:\\cozwork\\project_qlxe\\backend\\projectqlthuexe\\applicationcore\\kt\\commands\\deletektcommanhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36A305F8-4127-4F3A-A0A0-96155B96395A}|ApplicationCore\\ProjectQLThueXe.Application.csproj|solutionrelative:applicationcore\\kt\\commands\\deletektcommanhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36A305F8-4127-4F3A-A0A0-96155B96395A}|ApplicationCore\\ProjectQLThueXe.Application.csproj|d:\\cozwork\\project_qlxe\\backend\\projectqlthuexe\\applicationcore\\cartype\\commands\\deletecartypecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36A305F8-4127-4F3A-A0A0-96155B96395A}|ApplicationCore\\ProjectQLThueXe.Application.csproj|solutionrelative:applicationcore\\cartype\\commands\\deletecartypecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36A305F8-4127-4F3A-A0A0-96155B96395A}|ApplicationCore\\ProjectQLThueXe.Application.csproj|d:\\cozwork\\project_qlxe\\backend\\projectqlthuexe\\applicationcore\\kt\\commands\\deletektcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36A305F8-4127-4F3A-A0A0-96155B96395A}|ApplicationCore\\ProjectQLThueXe.Application.csproj|solutionrelative:applicationcore\\kt\\commands\\deletektcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{36A305F8-4127-4F3A-A0A0-96155B96395A}|ApplicationCore\\ProjectQLThueXe.Application.csproj|d:\\cozwork\\project_qlxe\\backend\\projectqlthuexe\\applicationcore\\cartype\\commands\\updatecartypecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -63,10 +79,6 @@
       "RelativeMoniker": "D:0:0:{DE053577-1242-43F2-870E-6D4E3B47DCD4}|ProjectQLThueXe.Domain\\ProjectQLThueXe.Domain.csproj|solutionrelative:projectqlthuexe.domain\\dtos\\ktdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E42015F3-CBF9-4198-8E7E-B50413358046}|ProjectQLThueXe.Infrastructure\\ProjectQLThueXe.Infrastructure.csproj|d:\\cozwork\\project_qlxe\\backend\\projectqlthuexe\\projectqlthuexe.infrastructure\\repositories\\ktrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E42015F3-CBF9-4198-8E7E-B50413358046}|ProjectQLThueXe.Infrastructure\\ProjectQLThueXe.Infrastructure.csproj|solutionrelative:projectqlthuexe.infrastructure\\repositories\\ktrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DE053577-1242-43F2-870E-6D4E3B47DCD4}|ProjectQLThueXe.Domain\\ProjectQLThueXe.Domain.csproj|d:\\cozwork\\project_qlxe\\backend\\projectqlthuexe\\projectqlthuexe.domain\\interfaces\\iktrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DE053577-1242-43F2-870E-6D4E3B47DCD4}|ProjectQLThueXe.Domain\\ProjectQLThueXe.Domain.csproj|solutionrelative:projectqlthuexe.domain\\interfaces\\iktrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -97,10 +109,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{36A305F8-4127-4F3A-A0A0-96155B96395A}|ApplicationCore\\ProjectQLThueXe.Application.csproj|d:\\cozwork\\project_qlxe\\backend\\projectqlthuexe\\applicationcore\\car\\commands\\deletecarcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36A305F8-4127-4F3A-A0A0-96155B96395A}|ApplicationCore\\ProjectQLThueXe.Application.csproj|solutionrelative:applicationcore\\car\\commands\\deletecarcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36A305F8-4127-4F3A-A0A0-96155B96395A}|ApplicationCore\\ProjectQLThueXe.Application.csproj|d:\\cozwork\\project_qlxe\\backend\\projectqlthuexe\\applicationcore\\cartype\\commands\\deletecartypecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36A305F8-4127-4F3A-A0A0-96155B96395A}|ApplicationCore\\ProjectQLThueXe.Application.csproj|solutionrelative:applicationcore\\cartype\\commands\\deletecartypecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{36A305F8-4127-4F3A-A0A0-96155B96395A}|ApplicationCore\\ProjectQLThueXe.Application.csproj|d:\\cozwork\\project_qlxe\\backend\\projectqlthuexe\\applicationcore\\car\\commands\\deletecarcommnad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -234,41 +242,28 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
+              "Title": "DeleteKTCommand.cs",
+              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KT\\Commands\\DeleteKTCommand.cs",
+              "RelativeDocumentMoniker": "ApplicationCore\\KT\\Commands\\DeleteKTCommand.cs",
+              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KT\\Commands\\DeleteKTCommand.cs",
+              "RelativeToolTip": "ApplicationCore\\KT\\Commands\\DeleteKTCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T09:31:53.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "UpdateKTCommandHandler.cs",
               "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KT\\Commands\\UpdateKTCommandHandler.cs",
               "RelativeDocumentMoniker": "ApplicationCore\\KT\\Commands\\UpdateKTCommandHandler.cs",
               "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KT\\Commands\\UpdateKTCommandHandler.cs",
               "RelativeToolTip": "ApplicationCore\\KT\\Commands\\UpdateKTCommandHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-29T09:03:01.221Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CreateKTCommandHandler.cs",
-              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KT\\Commands\\CreateKTCommandHandler.cs",
-              "RelativeDocumentMoniker": "ApplicationCore\\KT\\Commands\\CreateKTCommandHandler.cs",
-              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KT\\Commands\\CreateKTCommandHandler.cs",
-              "RelativeToolTip": "ApplicationCore\\KT\\Commands\\CreateKTCommandHandler.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T08:51:59.734Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CreateKTCommand.cs",
-              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KT\\Commands\\CreateKTCommand.cs",
-              "RelativeDocumentMoniker": "ApplicationCore\\KT\\Commands\\CreateKTCommand.cs",
-              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KT\\Commands\\CreateKTCommand.cs",
-              "RelativeToolTip": "ApplicationCore\\KT\\Commands\\CreateKTCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T08:50:03.965Z",
               "EditorCaption": ""
             },
             {
@@ -279,14 +274,64 @@
               "RelativeDocumentMoniker": "ProjectQLThueXe.WebAPI\\Controllers\\KtsController.cs",
               "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ProjectQLThueXe.WebAPI\\Controllers\\KtsController.cs",
               "RelativeToolTip": "ProjectQLThueXe.WebAPI\\Controllers\\KtsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAtwDcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-29T09:10:29.82Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "KTRepository.cs",
+              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ProjectQLThueXe.Infrastructure\\Repositories\\KTRepository.cs",
+              "RelativeDocumentMoniker": "ProjectQLThueXe.Infrastructure\\Repositories\\KTRepository.cs",
+              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ProjectQLThueXe.Infrastructure\\Repositories\\KTRepository.cs",
+              "RelativeToolTip": "ProjectQLThueXe.Infrastructure\\Repositories\\KTRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T08:25:56.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "DeleteKTCommanHandler.cs",
+              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KT\\Commands\\DeleteKTCommanHandler.cs",
+              "RelativeDocumentMoniker": "ApplicationCore\\KT\\Commands\\DeleteKTCommanHandler.cs",
+              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KT\\Commands\\DeleteKTCommanHandler.cs",
+              "RelativeToolTip": "ApplicationCore\\KT\\Commands\\DeleteKTCommanHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T09:32:58.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CreateKTCommandHandler.cs",
+              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KT\\Commands\\CreateKTCommandHandler.cs",
+              "RelativeDocumentMoniker": "ApplicationCore\\KT\\Commands\\CreateKTCommandHandler.cs",
+              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KT\\Commands\\CreateKTCommandHandler.cs",
+              "RelativeToolTip": "ApplicationCore\\KT\\Commands\\CreateKTCommandHandler.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T08:51:59.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CreateKTCommand.cs",
+              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KT\\Commands\\CreateKTCommand.cs",
+              "RelativeDocumentMoniker": "ApplicationCore\\KT\\Commands\\CreateKTCommand.cs",
+              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KT\\Commands\\CreateKTCommand.cs",
+              "RelativeToolTip": "ApplicationCore\\KT\\Commands\\CreateKTCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T08:50:03.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "CreateKTCommnadValidator.cs",
               "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KT\\Commands\\CreateKTCommnadValidator.cs",
               "RelativeDocumentMoniker": "ApplicationCore\\KT\\Commands\\CreateKTCommnadValidator.cs",
@@ -294,12 +339,11 @@
               "RelativeToolTip": "ApplicationCore\\KT\\Commands\\CreateKTCommnadValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T08:56:32.264Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-29T08:56:32.264Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "GetKTByIdQueryHandler.cs",
               "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KT\\Queries\\GetKTByIdQueryHandler.cs",
               "RelativeDocumentMoniker": "ApplicationCore\\KT\\Queries\\GetKTByIdQueryHandler.cs",
@@ -307,12 +351,11 @@
               "RelativeToolTip": "ApplicationCore\\KT\\Queries\\GetKTByIdQueryHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T08:47:42.146Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-29T08:47:42.146Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "GetKTByIdQuery.cs",
               "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KT\\Queries\\GetKTByIdQuery.cs",
               "RelativeDocumentMoniker": "ApplicationCore\\KT\\Queries\\GetKTByIdQuery.cs",
@@ -320,12 +363,11 @@
               "RelativeToolTip": "ApplicationCore\\KT\\Queries\\GetKTByIdQuery.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T08:46:35.695Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-29T08:46:35.695Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "GetlAllKTQueryHandler.cs",
               "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KT\\Queries\\GetlAllKTQueryHandler.cs",
               "RelativeDocumentMoniker": "ApplicationCore\\KT\\Queries\\GetlAllKTQueryHandler.cs",
@@ -333,12 +375,11 @@
               "RelativeToolTip": "ApplicationCore\\KT\\Queries\\GetlAllKTQueryHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T08:44:13.705Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-29T08:44:13.705Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "GetAllKTQuery.cs",
               "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KT\\Queries\\GetAllKTQuery.cs",
               "RelativeDocumentMoniker": "ApplicationCore\\KT\\Queries\\GetAllKTQuery.cs",
@@ -346,12 +387,11 @@
               "RelativeToolTip": "ApplicationCore\\KT\\Queries\\GetAllKTQuery.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T08:42:36.96Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-29T08:42:36.96Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "KTDTO.cs",
               "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ProjectQLThueXe.Domain\\DTOs\\KTDTO.cs",
               "RelativeDocumentMoniker": "ProjectQLThueXe.Domain\\DTOs\\KTDTO.cs",
@@ -359,25 +399,11 @@
               "RelativeToolTip": "ProjectQLThueXe.Domain\\DTOs\\KTDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T08:37:50.913Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-29T08:37:50.913Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "KTRepository.cs",
-              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ProjectQLThueXe.Infrastructure\\Repositories\\KTRepository.cs",
-              "RelativeDocumentMoniker": "ProjectQLThueXe.Infrastructure\\Repositories\\KTRepository.cs",
-              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ProjectQLThueXe.Infrastructure\\Repositories\\KTRepository.cs",
-              "RelativeToolTip": "ProjectQLThueXe.Infrastructure\\Repositories\\KTRepository.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAwwEkAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T08:25:56.956Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "IKTRepository.cs",
               "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ProjectQLThueXe.Domain\\Interfaces\\IKTRepository.cs",
               "RelativeDocumentMoniker": "ProjectQLThueXe.Domain\\Interfaces\\IKTRepository.cs",
@@ -385,12 +411,11 @@
               "RelativeToolTip": "ProjectQLThueXe.Domain\\Interfaces\\IKTRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T08:16:19.694Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-29T08:16:19.694Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "KCTsController.cs",
               "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ProjectQLThueXe.WebAPI\\Controllers\\KCTsController.cs",
               "RelativeDocumentMoniker": "ProjectQLThueXe.WebAPI\\Controllers\\KCTsController.cs",
@@ -398,12 +423,11 @@
               "RelativeToolTip": "ProjectQLThueXe.WebAPI\\Controllers\\KCTsController.cs",
               "ViewState": "AgIAAD8AAAAAAAAAAAAiwHQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T07:35:23.474Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-29T07:35:23.474Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "IKCTRepository.cs",
               "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ProjectQLThueXe.Domain\\Interfaces\\IKCTRepository.cs",
               "RelativeDocumentMoniker": "ProjectQLThueXe.Domain\\Interfaces\\IKCTRepository.cs",
@@ -411,12 +435,11 @@
               "RelativeToolTip": "ProjectQLThueXe.Domain\\Interfaces\\IKCTRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T04:59:15.419Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-29T04:59:15.419Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "ICarRepository.cs",
               "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ProjectQLThueXe.Domain\\Interfaces\\ICarRepository.cs",
               "RelativeDocumentMoniker": "ProjectQLThueXe.Domain\\Interfaces\\ICarRepository.cs",
@@ -424,12 +447,11 @@
               "RelativeToolTip": "ProjectQLThueXe.Domain\\Interfaces\\ICarRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T03:59:58.666Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-29T03:59:58.666Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "DeleteCarCommandHandler.cs",
               "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\Car\\Commands\\DeleteCarCommandHandler.cs",
               "RelativeDocumentMoniker": "ApplicationCore\\Car\\Commands\\DeleteCarCommandHandler.cs",
@@ -437,12 +459,341 @@
               "RelativeToolTip": "ApplicationCore\\Car\\Commands\\DeleteCarCommandHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T07:26:52.485Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-29T07:26:52.485Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 24,
+              "Title": "KCTDTO.cs",
+              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ProjectQLThueXe.Domain\\DTOs\\KCTDTO.cs",
+              "RelativeDocumentMoniker": "ProjectQLThueXe.Domain\\DTOs\\KCTDTO.cs",
+              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ProjectQLThueXe.Domain\\DTOs\\KCTDTO.cs",
+              "RelativeToolTip": "ProjectQLThueXe.Domain\\DTOs\\KCTDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T07:45:01.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CarsController.cs",
+              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ProjectQLThueXe.WebAPI\\Controllers\\CarsController.cs",
+              "RelativeDocumentMoniker": "ProjectQLThueXe.WebAPI\\Controllers\\CarsController.cs",
+              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ProjectQLThueXe.WebAPI\\Controllers\\CarsController.cs",
+              "RelativeToolTip": "ProjectQLThueXe.WebAPI\\Controllers\\CarsController.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAqwGsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T03:39:32.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "DeleteCarCommnad.cs",
+              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\Car\\Commands\\DeleteCarCommnad.cs",
+              "RelativeDocumentMoniker": "ApplicationCore\\Car\\Commands\\DeleteCarCommnad.cs",
+              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\Car\\Commands\\DeleteCarCommnad.cs",
+              "RelativeToolTip": "ApplicationCore\\Car\\Commands\\DeleteCarCommnad.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T07:26:20.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CarDTO.cs",
+              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ProjectQLThueXe.Domain\\DTOs\\CarDTO.cs",
+              "RelativeDocumentMoniker": "ProjectQLThueXe.Domain\\DTOs\\CarDTO.cs",
+              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ProjectQLThueXe.Domain\\DTOs\\CarDTO.cs",
+              "RelativeToolTip": "ProjectQLThueXe.Domain\\DTOs\\CarDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T03:10:17.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "GetAllKCTQueryHandler.cs",
+              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KCT\\Queries\\GetAllKCTQueryHandler.cs",
+              "RelativeDocumentMoniker": "ApplicationCore\\KCT\\Queries\\GetAllKCTQueryHandler.cs",
+              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KCT\\Queries\\GetAllKCTQueryHandler.cs",
+              "RelativeToolTip": "ApplicationCore\\KCT\\Queries\\GetAllKCTQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBQAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T04:57:34.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "GetAllKCTQuery.cs",
+              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KCT\\Queries\\GetAllKCTQuery.cs",
+              "RelativeDocumentMoniker": "ApplicationCore\\KCT\\Queries\\GetAllKCTQuery.cs",
+              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KCT\\Queries\\GetAllKCTQuery.cs",
+              "RelativeToolTip": "ApplicationCore\\KCT\\Queries\\GetAllKCTQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T04:55:53.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "UpdateCarCommandHandler.cs",
+              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\Car\\Commands\\UpdateCarCommandHandler.cs",
+              "RelativeDocumentMoniker": "ApplicationCore\\Car\\Commands\\UpdateCarCommandHandler.cs",
+              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\Car\\Commands\\UpdateCarCommandHandler.cs",
+              "RelativeToolTip": "ApplicationCore\\Car\\Commands\\UpdateCarCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T07:08:01.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "UpdateCarCommand.cs",
+              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\Car\\Commands\\UpdateCarCommand.cs",
+              "RelativeDocumentMoniker": "ApplicationCore\\Car\\Commands\\UpdateCarCommand.cs",
+              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\Car\\Commands\\UpdateCarCommand.cs",
+              "RelativeToolTip": "ApplicationCore\\Car\\Commands\\UpdateCarCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T07:04:31.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "GetKCTQueryHandler.cs",
+              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KCT\\Queries\\GetKCTQueryHandler.cs",
+              "RelativeDocumentMoniker": "ApplicationCore\\KCT\\Queries\\GetKCTQueryHandler.cs",
+              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KCT\\Queries\\GetKCTQueryHandler.cs",
+              "RelativeToolTip": "ApplicationCore\\KCT\\Queries\\GetKCTQueryHandler.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T06:59:37.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "GetKCTByIdQuery.cs",
+              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KCT\\Queries\\GetKCTByIdQuery.cs",
+              "RelativeDocumentMoniker": "ApplicationCore\\KCT\\Queries\\GetKCTByIdQuery.cs",
+              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KCT\\Queries\\GetKCTByIdQuery.cs",
+              "RelativeToolTip": "ApplicationCore\\KCT\\Queries\\GetKCTByIdQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T06:57:54.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "DeleteKCTCommandHandler.cs",
+              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KCT\\Commands\\DeleteKCTCommandHandler.cs",
+              "RelativeDocumentMoniker": "ApplicationCore\\KCT\\Commands\\DeleteKCTCommandHandler.cs",
+              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KCT\\Commands\\DeleteKCTCommandHandler.cs",
+              "RelativeToolTip": "ApplicationCore\\KCT\\Commands\\DeleteKCTCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T06:53:16.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "DeleteKCTCommand.cs",
+              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KCT\\Commands\\DeleteKCTCommand.cs",
+              "RelativeDocumentMoniker": "ApplicationCore\\KCT\\Commands\\DeleteKCTCommand.cs",
+              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KCT\\Commands\\DeleteKCTCommand.cs",
+              "RelativeToolTip": "ApplicationCore\\KCT\\Commands\\DeleteKCTCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T06:52:20.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "UpdateKCTCommnadHandler.cs",
+              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KCT\\Commands\\UpdateKCTCommnadHandler.cs",
+              "RelativeDocumentMoniker": "ApplicationCore\\KCT\\Commands\\UpdateKCTCommnadHandler.cs",
+              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KCT\\Commands\\UpdateKCTCommnadHandler.cs",
+              "RelativeToolTip": "ApplicationCore\\KCT\\Commands\\UpdateKCTCommnadHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T06:40:50.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "UpdateKCTCommand.cs",
+              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KCT\\Commands\\UpdateKCTCommand.cs",
+              "RelativeDocumentMoniker": "ApplicationCore\\KCT\\Commands\\UpdateKCTCommand.cs",
+              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KCT\\Commands\\UpdateKCTCommand.cs",
+              "RelativeToolTip": "ApplicationCore\\KCT\\Commands\\UpdateKCTCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T06:38:45.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "CreateKCTCommandHandler.cs",
+              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KCT\\Commands\\CreateKCTCommandHandler.cs",
+              "RelativeDocumentMoniker": "ApplicationCore\\KCT\\Commands\\CreateKCTCommandHandler.cs",
+              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KCT\\Commands\\CreateKCTCommandHandler.cs",
+              "RelativeToolTip": "ApplicationCore\\KCT\\Commands\\CreateKCTCommandHandler.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T06:24:16.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "CreateKCTCommand.cs",
+              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KCT\\Commands\\CreateKCTCommand.cs",
+              "RelativeDocumentMoniker": "ApplicationCore\\KCT\\Commands\\CreateKCTCommand.cs",
+              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KCT\\Commands\\CreateKCTCommand.cs",
+              "RelativeToolTip": "ApplicationCore\\KCT\\Commands\\CreateKCTCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T06:20:51.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "CreateKCTCommnadValidator.cs",
+              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KCT\\Commands\\CreateKCTCommnadValidator.cs",
+              "RelativeDocumentMoniker": "ApplicationCore\\KCT\\Commands\\CreateKCTCommnadValidator.cs",
+              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KCT\\Commands\\CreateKCTCommnadValidator.cs",
+              "RelativeToolTip": "ApplicationCore\\KCT\\Commands\\CreateKCTCommnadValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T06:29:37.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "CreateCarCommandHandler.cs",
+              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\Car\\Commands\\CreateCarCommandHandler.cs",
+              "RelativeDocumentMoniker": "ApplicationCore\\Car\\Commands\\CreateCarCommandHandler.cs",
+              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\Car\\Commands\\CreateCarCommandHandler.cs",
+              "RelativeToolTip": "ApplicationCore\\Car\\Commands\\CreateCarCommandHandler.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAjwB8AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T04:08:44.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "CreateCarCommand.cs",
+              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\Car\\Commands\\CreateCarCommand.cs",
+              "RelativeDocumentMoniker": "ApplicationCore\\Car\\Commands\\CreateCarCommand.cs",
+              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\Car\\Commands\\CreateCarCommand.cs",
+              "RelativeToolTip": "ApplicationCore\\Car\\Commands\\CreateCarCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T04:04:32.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "KCTRepository.cs",
+              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ProjectQLThueXe.Infrastructure\\Repositories\\KCTRepository.cs",
+              "RelativeDocumentMoniker": "ProjectQLThueXe.Infrastructure\\Repositories\\KCTRepository.cs",
+              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ProjectQLThueXe.Infrastructure\\Repositories\\KCTRepository.cs",
+              "RelativeToolTip": "ProjectQLThueXe.Infrastructure\\Repositories\\KCTRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T05:00:44.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "CreateCarCommandValidator.cs",
+              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\Car\\Commands\\CreateCarCommandValidator.cs",
+              "RelativeDocumentMoniker": "ApplicationCore\\Car\\Commands\\CreateCarCommandValidator.cs",
+              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\Car\\Commands\\CreateCarCommandValidator.cs",
+              "RelativeToolTip": "ApplicationCore\\Car\\Commands\\CreateCarCommandValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T04:23:31.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "GetAllCarQueryHandler.cs",
+              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\Car\\Queries\\GetAllCarQueryHandler.cs",
+              "RelativeDocumentMoniker": "ApplicationCore\\Car\\Queries\\GetAllCarQueryHandler.cs",
+              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\Car\\Queries\\GetAllCarQueryHandler.cs",
+              "RelativeToolTip": "ApplicationCore\\Car\\Queries\\GetAllCarQueryHandler.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAjwBcAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T03:23:13.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "GetCarByIdQueryHandler.cs",
+              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\Car\\Queries\\GetCarByIdQueryHandler.cs",
+              "RelativeDocumentMoniker": "ApplicationCore\\Car\\Queries\\GetCarByIdQueryHandler.cs",
+              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\Car\\Queries\\GetCarByIdQueryHandler.cs",
+              "RelativeToolTip": "ApplicationCore\\Car\\Queries\\GetCarByIdQueryHandler.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T03:54:02.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "GetCarByIdQuery.cs",
+              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\Car\\Queries\\GetCarByIdQuery.cs",
+              "RelativeDocumentMoniker": "ApplicationCore\\Car\\Queries\\GetCarByIdQuery.cs",
+              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\Car\\Queries\\GetCarByIdQuery.cs",
+              "RelativeToolTip": "ApplicationCore\\Car\\Queries\\GetCarByIdQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T03:51:18.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "GetAllCarQuery.cs",
+              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\Car\\Queries\\GetAllCarQuery.cs",
+              "RelativeDocumentMoniker": "ApplicationCore\\Car\\Queries\\GetAllCarQuery.cs",
+              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\Car\\Queries\\GetAllCarQuery.cs",
+              "RelativeToolTip": "ApplicationCore\\Car\\Queries\\GetAllCarQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T03:20:12.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\MappingProfile\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "ApplicationCore\\MappingProfile\\MappingProfile.cs",
+              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\MappingProfile\\MappingProfile.cs",
+              "RelativeToolTip": "ApplicationCore\\MappingProfile\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T03:25:36.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "UpdateCarTypeCommand.cs",
+              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\CarType\\Commands\\UpdateCarTypeCommand.cs",
+              "RelativeDocumentMoniker": "ApplicationCore\\CarType\\Commands\\UpdateCarTypeCommand.cs",
+              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\CarType\\Commands\\UpdateCarTypeCommand.cs",
+              "RelativeToolTip": "ApplicationCore\\CarType\\Commands\\UpdateCarTypeCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T01:36:06.53Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "DeleteCarTypeCommandHandler.cs",
               "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\CarType\\Commands\\DeleteCarTypeCommandHandler.cs",
               "RelativeDocumentMoniker": "ApplicationCore\\CarType\\Commands\\DeleteCarTypeCommandHandler.cs",
@@ -455,377 +806,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "KCTDTO.cs",
-              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ProjectQLThueXe.Domain\\DTOs\\KCTDTO.cs",
-              "RelativeDocumentMoniker": "ProjectQLThueXe.Domain\\DTOs\\KCTDTO.cs",
-              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ProjectQLThueXe.Domain\\DTOs\\KCTDTO.cs",
-              "RelativeToolTip": "ProjectQLThueXe.Domain\\DTOs\\KCTDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T07:45:01.413Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "CarsController.cs",
-              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ProjectQLThueXe.WebAPI\\Controllers\\CarsController.cs",
-              "RelativeDocumentMoniker": "ProjectQLThueXe.WebAPI\\Controllers\\CarsController.cs",
-              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ProjectQLThueXe.WebAPI\\Controllers\\CarsController.cs",
-              "RelativeToolTip": "ProjectQLThueXe.WebAPI\\Controllers\\CarsController.cs",
-              "ViewState": "AgIAAFgAAAAAAAAAAAAqwGsAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T03:39:32.741Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "DeleteCarCommnad.cs",
-              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\Car\\Commands\\DeleteCarCommnad.cs",
-              "RelativeDocumentMoniker": "ApplicationCore\\Car\\Commands\\DeleteCarCommnad.cs",
-              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\Car\\Commands\\DeleteCarCommnad.cs",
-              "RelativeToolTip": "ApplicationCore\\Car\\Commands\\DeleteCarCommnad.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T07:26:20.142Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "CarDTO.cs",
-              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ProjectQLThueXe.Domain\\DTOs\\CarDTO.cs",
-              "RelativeDocumentMoniker": "ProjectQLThueXe.Domain\\DTOs\\CarDTO.cs",
-              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ProjectQLThueXe.Domain\\DTOs\\CarDTO.cs",
-              "RelativeToolTip": "ProjectQLThueXe.Domain\\DTOs\\CarDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T03:10:17.104Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "GetAllKCTQueryHandler.cs",
-              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KCT\\Queries\\GetAllKCTQueryHandler.cs",
-              "RelativeDocumentMoniker": "ApplicationCore\\KCT\\Queries\\GetAllKCTQueryHandler.cs",
-              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KCT\\Queries\\GetAllKCTQueryHandler.cs",
-              "RelativeToolTip": "ApplicationCore\\KCT\\Queries\\GetAllKCTQueryHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBQAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T04:57:34.433Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "GetAllKCTQuery.cs",
-              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KCT\\Queries\\GetAllKCTQuery.cs",
-              "RelativeDocumentMoniker": "ApplicationCore\\KCT\\Queries\\GetAllKCTQuery.cs",
-              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KCT\\Queries\\GetAllKCTQuery.cs",
-              "RelativeToolTip": "ApplicationCore\\KCT\\Queries\\GetAllKCTQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T04:55:53.854Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "UpdateCarCommandHandler.cs",
-              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\Car\\Commands\\UpdateCarCommandHandler.cs",
-              "RelativeDocumentMoniker": "ApplicationCore\\Car\\Commands\\UpdateCarCommandHandler.cs",
-              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\Car\\Commands\\UpdateCarCommandHandler.cs",
-              "RelativeToolTip": "ApplicationCore\\Car\\Commands\\UpdateCarCommandHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T07:08:01.828Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "UpdateCarCommand.cs",
-              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\Car\\Commands\\UpdateCarCommand.cs",
-              "RelativeDocumentMoniker": "ApplicationCore\\Car\\Commands\\UpdateCarCommand.cs",
-              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\Car\\Commands\\UpdateCarCommand.cs",
-              "RelativeToolTip": "ApplicationCore\\Car\\Commands\\UpdateCarCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T07:04:31.589Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "GetKCTQueryHandler.cs",
-              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KCT\\Queries\\GetKCTQueryHandler.cs",
-              "RelativeDocumentMoniker": "ApplicationCore\\KCT\\Queries\\GetKCTQueryHandler.cs",
-              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KCT\\Queries\\GetKCTQueryHandler.cs",
-              "RelativeToolTip": "ApplicationCore\\KCT\\Queries\\GetKCTQueryHandler.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T06:59:37.181Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "GetKCTByIdQuery.cs",
-              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KCT\\Queries\\GetKCTByIdQuery.cs",
-              "RelativeDocumentMoniker": "ApplicationCore\\KCT\\Queries\\GetKCTByIdQuery.cs",
-              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KCT\\Queries\\GetKCTByIdQuery.cs",
-              "RelativeToolTip": "ApplicationCore\\KCT\\Queries\\GetKCTByIdQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T06:57:54.337Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "DeleteKCTCommandHandler.cs",
-              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KCT\\Commands\\DeleteKCTCommandHandler.cs",
-              "RelativeDocumentMoniker": "ApplicationCore\\KCT\\Commands\\DeleteKCTCommandHandler.cs",
-              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KCT\\Commands\\DeleteKCTCommandHandler.cs",
-              "RelativeToolTip": "ApplicationCore\\KCT\\Commands\\DeleteKCTCommandHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T06:53:16.083Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "DeleteKCTCommand.cs",
-              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KCT\\Commands\\DeleteKCTCommand.cs",
-              "RelativeDocumentMoniker": "ApplicationCore\\KCT\\Commands\\DeleteKCTCommand.cs",
-              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KCT\\Commands\\DeleteKCTCommand.cs",
-              "RelativeToolTip": "ApplicationCore\\KCT\\Commands\\DeleteKCTCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T06:52:20.02Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "UpdateKCTCommnadHandler.cs",
-              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KCT\\Commands\\UpdateKCTCommnadHandler.cs",
-              "RelativeDocumentMoniker": "ApplicationCore\\KCT\\Commands\\UpdateKCTCommnadHandler.cs",
-              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KCT\\Commands\\UpdateKCTCommnadHandler.cs",
-              "RelativeToolTip": "ApplicationCore\\KCT\\Commands\\UpdateKCTCommnadHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T06:40:50.87Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "UpdateKCTCommand.cs",
-              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KCT\\Commands\\UpdateKCTCommand.cs",
-              "RelativeDocumentMoniker": "ApplicationCore\\KCT\\Commands\\UpdateKCTCommand.cs",
-              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KCT\\Commands\\UpdateKCTCommand.cs",
-              "RelativeToolTip": "ApplicationCore\\KCT\\Commands\\UpdateKCTCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T06:38:45.439Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "CreateKCTCommandHandler.cs",
-              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KCT\\Commands\\CreateKCTCommandHandler.cs",
-              "RelativeDocumentMoniker": "ApplicationCore\\KCT\\Commands\\CreateKCTCommandHandler.cs",
-              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KCT\\Commands\\CreateKCTCommandHandler.cs",
-              "RelativeToolTip": "ApplicationCore\\KCT\\Commands\\CreateKCTCommandHandler.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T06:24:16.897Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "CreateKCTCommand.cs",
-              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KCT\\Commands\\CreateKCTCommand.cs",
-              "RelativeDocumentMoniker": "ApplicationCore\\KCT\\Commands\\CreateKCTCommand.cs",
-              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KCT\\Commands\\CreateKCTCommand.cs",
-              "RelativeToolTip": "ApplicationCore\\KCT\\Commands\\CreateKCTCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T06:20:51.386Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "CreateKCTCommnadValidator.cs",
-              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KCT\\Commands\\CreateKCTCommnadValidator.cs",
-              "RelativeDocumentMoniker": "ApplicationCore\\KCT\\Commands\\CreateKCTCommnadValidator.cs",
-              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KCT\\Commands\\CreateKCTCommnadValidator.cs",
-              "RelativeToolTip": "ApplicationCore\\KCT\\Commands\\CreateKCTCommnadValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T06:29:37.168Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "CreateCarCommandHandler.cs",
-              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\Car\\Commands\\CreateCarCommandHandler.cs",
-              "RelativeDocumentMoniker": "ApplicationCore\\Car\\Commands\\CreateCarCommandHandler.cs",
-              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\Car\\Commands\\CreateCarCommandHandler.cs",
-              "RelativeToolTip": "ApplicationCore\\Car\\Commands\\CreateCarCommandHandler.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAjwB8AAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T04:08:44.311Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "CreateCarCommand.cs",
-              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\Car\\Commands\\CreateCarCommand.cs",
-              "RelativeDocumentMoniker": "ApplicationCore\\Car\\Commands\\CreateCarCommand.cs",
-              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\Car\\Commands\\CreateCarCommand.cs",
-              "RelativeToolTip": "ApplicationCore\\Car\\Commands\\CreateCarCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T04:04:32.94Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "KCTRepository.cs",
-              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ProjectQLThueXe.Infrastructure\\Repositories\\KCTRepository.cs",
-              "RelativeDocumentMoniker": "ProjectQLThueXe.Infrastructure\\Repositories\\KCTRepository.cs",
-              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ProjectQLThueXe.Infrastructure\\Repositories\\KCTRepository.cs",
-              "RelativeToolTip": "ProjectQLThueXe.Infrastructure\\Repositories\\KCTRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T05:00:44.753Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "CreateCarCommandValidator.cs",
-              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\Car\\Commands\\CreateCarCommandValidator.cs",
-              "RelativeDocumentMoniker": "ApplicationCore\\Car\\Commands\\CreateCarCommandValidator.cs",
-              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\Car\\Commands\\CreateCarCommandValidator.cs",
-              "RelativeToolTip": "ApplicationCore\\Car\\Commands\\CreateCarCommandValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T04:23:31.274Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "GetAllCarQueryHandler.cs",
-              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\Car\\Queries\\GetAllCarQueryHandler.cs",
-              "RelativeDocumentMoniker": "ApplicationCore\\Car\\Queries\\GetAllCarQueryHandler.cs",
-              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\Car\\Queries\\GetAllCarQueryHandler.cs",
-              "RelativeToolTip": "ApplicationCore\\Car\\Queries\\GetAllCarQueryHandler.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAjwBcAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T03:23:13.917Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "GetCarByIdQueryHandler.cs",
-              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\Car\\Queries\\GetCarByIdQueryHandler.cs",
-              "RelativeDocumentMoniker": "ApplicationCore\\Car\\Queries\\GetCarByIdQueryHandler.cs",
-              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\Car\\Queries\\GetCarByIdQueryHandler.cs",
-              "RelativeToolTip": "ApplicationCore\\Car\\Queries\\GetCarByIdQueryHandler.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T03:54:02.931Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "GetCarByIdQuery.cs",
-              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\Car\\Queries\\GetCarByIdQuery.cs",
-              "RelativeDocumentMoniker": "ApplicationCore\\Car\\Queries\\GetCarByIdQuery.cs",
-              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\Car\\Queries\\GetCarByIdQuery.cs",
-              "RelativeToolTip": "ApplicationCore\\Car\\Queries\\GetCarByIdQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T03:51:18.524Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "GetAllCarQuery.cs",
-              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\Car\\Queries\\GetAllCarQuery.cs",
-              "RelativeDocumentMoniker": "ApplicationCore\\Car\\Queries\\GetAllCarQuery.cs",
-              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\Car\\Queries\\GetAllCarQuery.cs",
-              "RelativeToolTip": "ApplicationCore\\Car\\Queries\\GetAllCarQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T03:20:12.182Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\MappingProfile\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "ApplicationCore\\MappingProfile\\MappingProfile.cs",
-              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\MappingProfile\\MappingProfile.cs",
-              "RelativeToolTip": "ApplicationCore\\MappingProfile\\MappingProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T03:25:36.893Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "UpdateCarTypeCommand.cs",
-              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\CarType\\Commands\\UpdateCarTypeCommand.cs",
-              "RelativeDocumentMoniker": "ApplicationCore\\CarType\\Commands\\UpdateCarTypeCommand.cs",
-              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\CarType\\Commands\\UpdateCarTypeCommand.cs",
-              "RelativeToolTip": "ApplicationCore\\CarType\\Commands\\UpdateCarTypeCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T01:36:06.53Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 3,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CreateCarTypeCommandValidator.cs",
-              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\CarType\\Commands\\CreateCarTypeCommandValidator.cs",
-              "RelativeDocumentMoniker": "ApplicationCore\\CarType\\Commands\\CreateCarTypeCommandValidator.cs",
-              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\CarType\\Commands\\CreateCarTypeCommandValidator.cs",
-              "RelativeToolTip": "ApplicationCore\\CarType\\Commands\\CreateCarTypeCommandValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T04:23:34.117Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "UpdateCarTypeCommandHandler.cs",
               "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\CarType\\Commands\\UpdateCarTypeCommandHandler.cs",
               "RelativeDocumentMoniker": "ApplicationCore\\CarType\\Commands\\UpdateCarTypeCommandHandler.cs",
@@ -833,38 +814,49 @@
               "RelativeToolTip": "ApplicationCore\\CarType\\Commands\\UpdateCarTypeCommandHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T06:45:43.32Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-29T06:45:43.32Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ProjectQLThueXe.WebAPI\\Program.cs",
               "RelativeDocumentMoniker": "ProjectQLThueXe.WebAPI\\Program.cs",
               "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ProjectQLThueXe.WebAPI\\Program.cs",
               "RelativeToolTip": "ProjectQLThueXe.WebAPI\\Program.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAAD8AAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAUwC4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-29T06:36:41.23Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "CarTypesController.cs",
               "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ProjectQLThueXe.WebAPI\\Controllers\\CarTypesController.cs",
               "RelativeDocumentMoniker": "ProjectQLThueXe.WebAPI\\Controllers\\CarTypesController.cs",
               "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ProjectQLThueXe.WebAPI\\Controllers\\CarTypesController.cs",
               "RelativeToolTip": "ProjectQLThueXe.WebAPI\\Controllers\\CarTypesController.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAgwCcAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAwwG8AAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-29T01:43:44.948Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
+              "Title": "CreateCarTypeCommandValidator.cs",
+              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\CarType\\Commands\\CreateCarTypeCommandValidator.cs",
+              "RelativeDocumentMoniker": "ApplicationCore\\CarType\\Commands\\CreateCarTypeCommandValidator.cs",
+              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\CarType\\Commands\\CreateCarTypeCommandValidator.cs",
+              "RelativeToolTip": "ApplicationCore\\CarType\\Commands\\CreateCarTypeCommandValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T04:23:34.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "CreateCarTypeCommandHandler.cs",
               "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\CarType\\Commands\\CreateCarTypeCommandHandler.cs",
               "RelativeDocumentMoniker": "ApplicationCore\\CarType\\Commands\\CreateCarTypeCommandHandler.cs",
@@ -872,12 +864,11 @@
               "RelativeToolTip": "ApplicationCore\\CarType\\Commands\\CreateCarTypeCommandHandler.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T01:38:14.025Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-29T01:38:14.025Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "CarTypeRepository.cs",
               "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ProjectQLThueXe.Infrastructure\\Repositories\\CarTypeRepository.cs",
               "RelativeDocumentMoniker": "ProjectQLThueXe.Infrastructure\\Repositories\\CarTypeRepository.cs",
@@ -885,12 +876,11 @@
               "RelativeToolTip": "ProjectQLThueXe.Infrastructure\\Repositories\\CarTypeRepository.cs",
               "ViewState": "AgIAAC8AAAAAAAAAAAAIwE4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T02:54:45.358Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-29T02:54:45.358Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "GetAllCarTypeQueryHandler.cs",
               "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\CarType\\Queries\\GetAllCarTypeQueryHandler.cs",
               "RelativeDocumentMoniker": "ApplicationCore\\CarType\\Queries\\GetAllCarTypeQueryHandler.cs",
@@ -898,12 +888,11 @@
               "RelativeToolTip": "ApplicationCore\\CarType\\Queries\\GetAllCarTypeQueryHandler.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T03:22:06.177Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-29T03:22:06.177Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 48,
               "Title": "CreateCarTypeCommand.cs",
               "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\CarType\\Commands\\CreateCarTypeCommand.cs",
               "RelativeDocumentMoniker": "ApplicationCore\\CarType\\Commands\\CreateCarTypeCommand.cs",
@@ -911,12 +900,11 @@
               "RelativeToolTip": "ApplicationCore\\CarType\\Commands\\CreateCarTypeCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T01:36:48.789Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-29T01:36:48.789Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 49,
               "Title": "GetCarTypeByIdQueryHandler.cs",
               "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\CarType\\Queries\\GetCarTypeByIdQueryHandler.cs",
               "RelativeDocumentMoniker": "ApplicationCore\\CarType\\Queries\\GetCarTypeByIdQueryHandler.cs",
@@ -924,12 +912,11 @@
               "RelativeToolTip": "ApplicationCore\\CarType\\Queries\\GetCarTypeByIdQueryHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T02:25:55.754Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-29T02:25:55.754Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 55,
               "Title": "GetAllCarTypeQuery.cs",
               "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\CarType\\Queries\\GetAllCarTypeQuery.cs",
               "RelativeDocumentMoniker": "ApplicationCore\\CarType\\Queries\\GetAllCarTypeQuery.cs",
@@ -937,12 +924,11 @@
               "RelativeToolTip": "ApplicationCore\\CarType\\Queries\\GetAllCarTypeQuery.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T03:21:21.035Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-29T03:21:21.035Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 51,
               "Title": "GetCarTypeByIdQuery.cs",
               "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\CarType\\Queries\\GetCarTypeByIdQuery.cs",
               "RelativeDocumentMoniker": "ApplicationCore\\CarType\\Queries\\GetCarTypeByIdQuery.cs",
@@ -950,8 +936,7 @@
               "RelativeToolTip": "ApplicationCore\\CarType\\Queries\\GetCarTypeByIdQuery.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T01:49:21.155Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-29T01:49:21.155Z"
             }
           ]
         }

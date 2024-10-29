@@ -63,7 +63,7 @@ namespace ProjectQLThueXe.Infrastructure.Repositories
 
         public async Task<bool> UpdateAsync(Guid id, KT kt)
         {
-            if (String.IsNullOrEmpty(id.ToString()) && kt != null)
+            if (!String.IsNullOrEmpty(id.ToString()) && kt != null)
             {
                 var _kt = await _Context.KTs.SingleOrDefaultAsync(e => e.KT_ID == id);
                 if(_kt != null)
@@ -72,6 +72,7 @@ namespace ProjectQLThueXe.Infrastructure.Repositories
                     _kt.KT_Phone = kt.KT_Phone;
                     _kt.KT_Address = kt.KT_Address;
                     _kt.KT_CCCD = kt.KT_CCCD;
+
                     await _Context.SaveChangesAsync();
                     return true;
                 }

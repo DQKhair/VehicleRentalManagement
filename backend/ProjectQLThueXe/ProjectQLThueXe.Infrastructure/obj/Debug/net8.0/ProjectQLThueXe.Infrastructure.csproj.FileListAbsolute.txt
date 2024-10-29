@@ -17,3 +17,4 @@ D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ProjectQLThueXe.Infrastructure\b
 D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ProjectQLThueXe.Infrastructure\bin\Debug\net8.0\ProjectQLThueXe.Domain.dll
 D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ProjectQLThueXe.Infrastructure\bin\Debug\net8.0\ProjectQLThueXe.Application.pdb
 D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ProjectQLThueXe.Infrastructure\bin\Debug\net8.0\ProjectQLThueXe.Domain.pdb
+D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ProjectQLThueXe.Infrastructure\obj\Debug\net8.0\ProjectQLThueXe.Infrastructure.sourcelink.json

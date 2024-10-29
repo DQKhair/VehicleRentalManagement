@@ -15,3 +15,4 @@ D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ApplicationCore\obj\Debug\net8.0
 D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ApplicationCore\obj\Debug\net8.0\ProjectQLThueXe.Application.pdb
 D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ApplicationCore\obj\Debug\net8.0\ProjectQLThueXe.Application.genruntimeconfig.cache
 D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ApplicationCore\obj\Debug\net8.0\ref\ProjectQLThueXe.Application.dll
+D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ApplicationCore\obj\Debug\net8.0\ProjectQLThueXe.Application.sourcelink.json

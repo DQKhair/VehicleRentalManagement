@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProjectQLThueXe.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c32bac3cb66d5ad8c26c1cc0180281319444ed27")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProjectQLThueXe.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProjectQLThueXe.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
