@@ -1,0 +1,14 @@
+D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ApplicationCore\bin\Debug\net8.0\ProjectQLThueXe.ApplicationCore.deps.json
+D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ApplicationCore\bin\Debug\net8.0\ProjectQLThueXe.ApplicationCore.dll
+D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ApplicationCore\bin\Debug\net8.0\ProjectQLThueXe.ApplicationCore.pdb
+D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ApplicationCore\obj\Debug\net8.0\ProjectQLThueXe.ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ApplicationCore\obj\Debug\net8.0\ProjectQLThueXe.ApplicationCore.AssemblyInfoInputs.cache
+D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ApplicationCore\obj\Debug\net8.0\ProjectQLThueXe.ApplicationCore.AssemblyInfo.cs
+D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ApplicationCore\obj\Debug\net8.0\ProjectQLThueXe.ApplicationCore.csproj.CoreCompileInputs.cache
+D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ApplicationCore\obj\Debug\net8.0\ProjectQLThueXe.ApplicationCore.dll
+D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ApplicationCore\obj\Debug\net8.0\refint\ProjectQLThueXe.ApplicationCore.dll
+D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ApplicationCore\obj\Debug\net8.0\ProjectQLThueXe.ApplicationCore.pdb
+D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ApplicationCore\obj\Debug\net8.0\ref\ProjectQLThueXe.ApplicationCore.dll
+D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ApplicationCore\bin\Debug\net8.0\ProjectQLThueXe.ApplicationCore.runtimeconfig.json
+D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ApplicationCore\obj\Debug\net8.0\ProjectQLThueXe.ApplicationCore.csproj.AssemblyReference.cache
+D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ApplicationCore\obj\Debug\net8.0\ProjectQLThueXe.ApplicationCore.genruntimeconfig.cache

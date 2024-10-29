@@ -1,0 +1,6 @@
+@ProjectQLThueXe.WebAPI_HostAddress = http://localhost:5224
+
+GET {{ProjectQLThueXe.WebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,17 @@
+D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ApplicationCore\bin\Debug\net8.0\ProjectQLThueXe.Application.deps.json
+D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ApplicationCore\bin\Debug\net8.0\ProjectQLThueXe.Application.runtimeconfig.json
+D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ApplicationCore\bin\Debug\net8.0\ProjectQLThueXe.Application.dll
+D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ApplicationCore\bin\Debug\net8.0\ProjectQLThueXe.Application.pdb
+D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ApplicationCore\bin\Debug\net8.0\ProjectQLThueXe.Domain.dll
+D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ApplicationCore\bin\Debug\net8.0\ProjectQLThueXe.Domain.pdb
+D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ApplicationCore\obj\Debug\net8.0\ProjectQLThueXe.Application.csproj.AssemblyReference.cache
+D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ApplicationCore\obj\Debug\net8.0\ProjectQLThueXe.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ApplicationCore\obj\Debug\net8.0\ProjectQLThueXe.Application.AssemblyInfoInputs.cache
+D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ApplicationCore\obj\Debug\net8.0\ProjectQLThueXe.Application.AssemblyInfo.cs
+D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ApplicationCore\obj\Debug\net8.0\ProjectQLThueXe.Application.csproj.CoreCompileInputs.cache
+D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ApplicationCore\obj\Debug\net8.0\ProjectQ.DB09F76C.Up2Date
+D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ApplicationCore\obj\Debug\net8.0\ProjectQLThueXe.Application.dll
+D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ApplicationCore\obj\Debug\net8.0\refint\ProjectQLThueXe.Application.dll
+D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ApplicationCore\obj\Debug\net8.0\ProjectQLThueXe.Application.pdb
+D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ApplicationCore\obj\Debug\net8.0\ProjectQLThueXe.Application.genruntimeconfig.cache
+D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ApplicationCore\obj\Debug\net8.0\ref\ProjectQLThueXe.Application.dll

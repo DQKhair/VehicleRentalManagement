@@ -1,0 +1,14 @@
+D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ProjectQLThueXe.Domain\bin\Debug\net8.0\ProjectQLThueXe.Domain.deps.json
+D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ProjectQLThueXe.Domain\bin\Debug\net8.0\ProjectQLThueXe.Domain.runtimeconfig.json
+D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ProjectQLThueXe.Domain\bin\Debug\net8.0\ProjectQLThueXe.Domain.dll
+D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ProjectQLThueXe.Domain\bin\Debug\net8.0\ProjectQLThueXe.Domain.pdb
+D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ProjectQLThueXe.Domain\obj\Debug\net8.0\ProjectQLThueXe.Domain.csproj.AssemblyReference.cache
+D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ProjectQLThueXe.Domain\obj\Debug\net8.0\ProjectQLThueXe.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ProjectQLThueXe.Domain\obj\Debug\net8.0\ProjectQLThueXe.Domain.AssemblyInfoInputs.cache
+D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ProjectQLThueXe.Domain\obj\Debug\net8.0\ProjectQLThueXe.Domain.AssemblyInfo.cs
+D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ProjectQLThueXe.Domain\obj\Debug\net8.0\ProjectQLThueXe.Domain.csproj.CoreCompileInputs.cache
+D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ProjectQLThueXe.Domain\obj\Debug\net8.0\ProjectQLThueXe.Domain.dll
+D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ProjectQLThueXe.Domain\obj\Debug\net8.0\refint\ProjectQLThueXe.Domain.dll
+D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ProjectQLThueXe.Domain\obj\Debug\net8.0\ProjectQLThueXe.Domain.pdb
+D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ProjectQLThueXe.Domain\obj\Debug\net8.0\ProjectQLThueXe.Domain.genruntimeconfig.cache
+D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ProjectQLThueXe.Domain\obj\Debug\net8.0\ref\ProjectQLThueXe.Domain.dll
