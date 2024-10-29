@@ -39,6 +39,11 @@ namespace ProjectQLThueXe.Infrastructure.Migrations
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 
+                    b.Property<string>("NumberPlate")
+                        .IsRequired()
+                        .HasMaxLength(10)
+                        .HasColumnType("nvarchar(10)");
+
                     b.Property<double>("Price")
                         .HasColumnType("float");
 
@@ -158,6 +163,15 @@ namespace ProjectQLThueXe.Infrastructure.Migrations
                     b.Property<Guid?>("Receipt_ID")
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<DateTime>("TimeEnd")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("TimeStart")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("TotalDay")
+                        .HasColumnType("int");
+
                     b.HasKey("ReceiptDetail_ID");
 
                     b.HasIndex("Car_ID");
@@ -178,15 +192,6 @@ namespace ProjectQLThueXe.Infrastructure.Migrations
 
                     b.Property<DateTime>("ReceiptTime")
                         .HasColumnType("datetime2");
-
-                    b.Property<DateTime>("TimeEnd")
-                        .HasColumnType("datetime2");
-
-                    b.Property<DateTime>("TimeStart")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int>("TotalDay")
-                        .HasColumnType("int");
 
                     b.Property<double>("totalMoney")
                         .HasColumnType("float");

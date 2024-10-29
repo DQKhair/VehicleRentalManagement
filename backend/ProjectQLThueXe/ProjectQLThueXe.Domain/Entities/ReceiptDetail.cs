@@ -18,6 +18,9 @@ namespace ProjectQLThueXe.Domain.Entities
         public string Car_model { get; set; } = string.Empty;
         [Range(0, 100000000)]
         public double Car_Price { get; set; }
+        public DateTime TimeStart { get; set; } = DateTime.Now;
+        public DateTime TimeEnd { get; set; }
+        public int TotalDay { get; set; }
 
         public Guid? Car_ID { get; set; }
         [ForeignKey(nameof(Car_ID))]

@@ -5,6 +5,7 @@ using ProjectQLThueXe.Application.Car.Commands;
 using ProjectQLThueXe.Application.CarType.Commands;
 using ProjectQLThueXe.Application.KCT.Commands;
 using ProjectQLThueXe.Application.KT.Commands;
+using ProjectQLThueXe.Application.Receipt.Commands;
 using ProjectQLThueXe.Domain.Interfaces;
 using ProjectQLThueXe.Infrastructure.DBContext;
 using ProjectQLThueXe.Infrastructure.Repositories;
@@ -13,7 +14,11 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddControllers();
+// Use ReferenceHandler.Preserve
+builder.Services.AddControllers().AddJsonOptions(options =>
+{
+    options.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.Preserve;
+}); ;
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -26,6 +31,7 @@ builder.Services.AddScoped<ICarTypeRepository, CarTypeRepository>();
 builder.Services.AddScoped<ICarRepository, CarRepository>();
 builder.Services.AddScoped<IKCTRepository, KCTRepository>();
 builder.Services.AddScoped<IKTRepository, KTRepository>();
+builder.Services.AddScoped<IReceiptRepository, ReceiptRepository>();
 
 // Add MediatR And FluentValidation CarType
 builder.Services.AddMediatR(typeof(CreateCarTypeCommand).Assembly);
@@ -39,6 +45,9 @@ builder.Services.AddValidatorsFromAssembly(typeof(CreateKCTCommnadValidator).Ass
 // Add MediatR And FluentValidation KCT
 builder.Services.AddMediatR(typeof(CreateKTCommand).Assembly);
 builder.Services.AddValidatorsFromAssembly(typeof(CreateKTCommnadValidator).Assembly);
+// Add MediatR And FluentValidation KCT
+builder.Services.AddMediatR(typeof(CreateReceiptCommand).Assembly);
+builder.Services.AddValidatorsFromAssembly(typeof(CreateReceiptCommandValidator).Assembly);
 
 // Add MyDB 
 builder.Services.AddDbContext<MyDBContext>(option =>

@@ -35,6 +35,7 @@ namespace ProjectQLThueXe.Infrastructure.DBContext
                 entity.ToTable("Car");
                 entity.HasKey(e => e.Car_ID);
                 entity.Property(e => e.Model).HasMaxLength(50);
+                entity.Property(e => e.NumberPlate).HasMaxLength(10);
 
                 entity.HasOne(d => d.KCT).WithMany(d => d.Cars)
                 .HasForeignKey(d => d.KCT_ID)

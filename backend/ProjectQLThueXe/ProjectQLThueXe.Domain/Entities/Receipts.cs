@@ -15,9 +15,6 @@ namespace ProjectQLThueXe.Domain.Entities
         public Guid Receipt_ID { get; set; }
         [Range(0,100000000)]
         public double totalMoney { get; set; }
-        public DateTime TimeStart { get; set; } = DateTime.Now;
-        public DateTime TimeEnd { get; set; }
-        public int TotalDay { get; set; }
         public DateTime ReceiptTime { get; set; } = DateTime.Now;
 
         public Guid? KT_ID { get; set; }

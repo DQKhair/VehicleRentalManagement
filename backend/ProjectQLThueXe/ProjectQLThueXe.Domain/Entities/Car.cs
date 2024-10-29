@@ -19,6 +19,9 @@ namespace ProjectQLThueXe.Domain.Entities
         public string Model { get; set; } = string.Empty;
         [Range(0, 100000000)]
         public double Price { get; set; }
+        [Required]
+        [MaxLength(10)]
+        public string NumberPlate { get; set; }
         public bool status { get; set; }
         public string location { get; set; } = string.Empty;
 

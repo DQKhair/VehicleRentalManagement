@@ -23,6 +23,7 @@ namespace ProjectQLThueXe.Application.Car.Commands
             {
                 Car_ID = Guid.NewGuid(),
                 Model = request.Model,
+                NumberPlate = request.NumberPlate,
                 Price = request.Price,
                 location = request.location,
                 status = request.status,

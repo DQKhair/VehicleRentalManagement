@@ -10,6 +10,7 @@ namespace ProjectQLThueXe.Domain.DTOs
     {
         public Guid Car_ID { get; set; }
         public string Model { get; set; } = string.Empty;
+        public string NumberPlate { get; set; } = string.Empty;
         public double Price { get; set; }
         public string Location { get; set; } = string.Empty;
         public bool Status { get; set; }
