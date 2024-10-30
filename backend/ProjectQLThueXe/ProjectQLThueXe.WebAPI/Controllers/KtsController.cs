@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ProjectQLThueXe.Application.KT.Commands;
 using ProjectQLThueXe.Application.KT.Queries;
-using ProjectQLThueXe.Domain.DTOs;
+using ProjectQLThueXe.Domain.Models;
 using ProjectQLThueXe.Domain.Entities;
 
 namespace ProjectQLThueXe.WebAPI.Controllers
@@ -52,17 +52,17 @@ namespace ProjectQLThueXe.WebAPI.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateKt(Guid id, KTDTO kt)
+        public async Task<IActionResult> UpdateKt(Guid id, KTVM ktVM)
         {
             try
             {
                 var _updated = await _mediator.Send(new UpdateKTCommand
                 { 
                     KT_ID = id,
-                    KT_Name = kt.KT_Name,
-                    KT_Phone = kt.KT_Phone,
-                    KT_Address = kt.KT_Address,
-                    KT_CCCD = kt.KT_CCCD,
+                    KT_Name = ktVM.KT_Name,
+                    KT_Phone = ktVM.KT_Phone,
+                    KT_Address = ktVM.KT_Address,
+                    KT_CCCD = ktVM.KT_CCCD,
                 }); 
                 if (_updated == null)
                 {
@@ -77,16 +77,16 @@ namespace ProjectQLThueXe.WebAPI.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<KT>> AddNewKT(KTDTO ktDTO)
+        public async Task<ActionResult<KT>> AddNewKT(KTVM ktVM)
         {
             try
             {
                 var _created = await _mediator.Send(new CreateKTCommand 
                 {
-                    KT_Name = ktDTO.KT_Name,
-                    KT_Phone = ktDTO.KT_Phone,
-                    KT_Address = ktDTO.KT_Address,
-                    KT_CCCD = ktDTO.KT_CCCD,
+                    KT_Name = ktVM.KT_Name,
+                    KT_Phone = ktVM.KT_Phone,
+                    KT_Address = ktVM.KT_Address,
+                    KT_CCCD = ktVM.KT_CCCD,
                 });
                 if (_created != null)
                 {

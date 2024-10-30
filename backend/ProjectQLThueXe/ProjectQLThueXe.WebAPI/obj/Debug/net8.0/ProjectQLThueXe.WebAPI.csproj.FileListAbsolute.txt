@@ -146,8 +146,6 @@ D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ProjectQLThueXe.WebAPI\bin\Debug
 D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ProjectQLThueXe.WebAPI\bin\Debug\net8.0\ProjectQLThueXe.Domain.dll
 D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ProjectQLThueXe.WebAPI\bin\Debug\net8.0\ProjectQLThueXe.Application.pdb
 D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ProjectQLThueXe.WebAPI\bin\Debug\net8.0\ProjectQLThueXe.Domain.pdb
-D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ProjectQLThueXe.WebAPI\bin\Debug\net8.0\AutoMapper.dll
-D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ProjectQLThueXe.WebAPI\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ProjectQLThueXe.WebAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
 D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ProjectQLThueXe.WebAPI\bin\Debug\net8.0\Microsoft.Build.dll
 D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ProjectQLThueXe.WebAPI\bin\Debug\net8.0\Microsoft.Build.Framework.dll

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\COZWork\project_QLXe\public</_PublishTargetUrl>
+    <History>True|2024-10-30T08:18:00.2762875Z||;True|2024-10-30T14:01:25.9000473+07:00||;True|2024-10-30T13:51:57.6830623+07:00||;False|2024-10-30T13:51:05.5863250+07:00||;True|2024-10-30T13:45:08.9545480+07:00||;False|2024-10-30T13:44:05.9221542+07:00||;True|2024-10-30T13:14:18.7397844+07:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="MyDB">
+      <Value>workstation id=khaik02.mssql.somee.com%3bpacket size=4096%3buser id=khai101099_SQLLogin_2%3bpwd=g44sauisum%3bdata source=khaik02.mssql.somee.com%3bpersist security info=False%3binitial catalog=khaik02%3bTrustServerCertificate=True</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="ProjectQLThueXe.Infrastructure.DBContext.MyDBContext">
+      <Value>workstation id=khaik02.mssql.somee.com%3bpacket size=4096%3buser id=khai101099_SQLLogin_2%3bpwd=g44sauisum%3bdata source=khaik02.mssql.somee.com%3bpersist security info=False%3binitial catalog=khaik02%3bTrustServerCertificate=True</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

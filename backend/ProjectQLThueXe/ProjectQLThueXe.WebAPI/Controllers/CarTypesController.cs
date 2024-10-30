@@ -11,6 +11,8 @@ using ProjectQLThueXe.Application.CarType.Queries;
 using ProjectQLThueXe.Domain.Entities;
 using ProjectQLThueXe.Domain.DTOs;
 using ProjectQLThueXe.Infrastructure.DBContext;
+using ProjectQLThueXe.Domain.Models;
+using ProjectQLThueXe.Application.Mapping;
 
 namespace ProjectQLThueXe.WebAPI.Controllers
 {
@@ -26,12 +28,17 @@ namespace ProjectQLThueXe.WebAPI.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<CarType>>> GetALLCarTypes()
+        public async Task<ActionResult<IEnumerable<CarTypeDTO>>> GetALLCarTypes()
         {
             try
             {
                 var carTypes = await _mediator.Send(new GetAllCarTypeQuery());
-                return StatusCode(StatusCodes.Status200OK, carTypes);
+                var _carTypeDTO = MapCarType.ListCarTypeToListCarTypeDTO(carTypes);
+                if (_carTypeDTO != null)
+                {
+                    return StatusCode(StatusCodes.Status200OK, _carTypeDTO);
+                }
+                return StatusCode(StatusCodes.Status400BadRequest);
             }
             catch (Exception ex)
             {
@@ -47,12 +54,14 @@ namespace ProjectQLThueXe.WebAPI.Controllers
             {
                 var _carType = await _mediator.Send(new GetCarTypeByIdQuery { CarType_ID = id });
 
-                if (_carType == null)
-                {
-                    return NotFound();
-                }
+                var _carTypeDTO = MapCarType.CarTypeToCarTypeDTO(_carType);
 
-                return StatusCode(StatusCodes.Status200OK,_carType);
+                if (_carType != null && _carTypeDTO != null)
+                {
+                    return StatusCode(StatusCodes.Status200OK, _carTypeDTO);
+                }
+                return NotFound();
+
             }catch (Exception ex)
             {
                 return StatusCode(StatusCodes.Status500InternalServerError,ex);
@@ -60,12 +69,12 @@ namespace ProjectQLThueXe.WebAPI.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateCarType(int id, CarTypeDTO carTypeDTO)
+        public async Task<IActionResult> UpdateCarType(int id, CarTypeVM carTypeVM)
         {
             try
             {
-                string _updated = await _mediator.Send(new UpdateCarTypeCommand { CarType_ID = id, CarTypeName = carTypeDTO.CarTypeName });
-                if (String.IsNullOrEmpty(_updated))
+                string _updated = await _mediator.Send(new UpdateCarTypeCommand { CarType_ID = id, CarTypeName = carTypeVM.CarTypeName });
+                if (!String.IsNullOrEmpty(_updated))
                 {
                     return StatusCode(StatusCodes.Status200OK,_updated);
                 }
@@ -78,17 +87,16 @@ namespace ProjectQLThueXe.WebAPI.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<CarType>> AddNewCarType(CarTypeDTO carTypeDTO)
+        public async Task<ActionResult<CarType>> AddNewCarType(CarTypeVM carTypeVM)
         {
             try
             {
-                string _created = await _mediator.Send(new CreateCarTypeCommand { CarTypeName = carTypeDTO.CarTypeName });
+                string _created = await _mediator.Send(new CreateCarTypeCommand { CarTypeName = carTypeVM.CarTypeName });
                 if(String.IsNullOrEmpty(_created))
                 {
                     return StatusCode(StatusCodes.Status400BadRequest);
                 }  
-                
-                return CreatedAtAction("GetCarTypeById", new { id = carTypeDTO.CarType_ID }, carTypeDTO);
+                return StatusCode(StatusCodes.Status200OK, carTypeVM);
             }
             catch (Exception ex)
             {

@@ -56,7 +56,6 @@ namespace ProjectQLThueXe.Infrastructure.Repositories
                 var _carType = await _context.CarTypes.FindAsync(id);
                 if (_carType != null)
                 {
-
                     return _carType;
                 }
             }

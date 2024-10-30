@@ -14,5 +14,6 @@ namespace ProjectQLThueXe.Domain.Interfaces
         Task<bool> AddAsync(Car car);
         Task<bool> UpdateAsync(Guid id, Car car);
         Task<bool> DeleteAsync(Guid id);
+        Task<Car> UpdateLocationAsync(Guid id,string location);
     }
 }

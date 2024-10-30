@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using NuGet.Protocol;
 using ProjectQLThueXe.Application.KCT.Commands;
 using ProjectQLThueXe.Application.KCT.Queries;
-using ProjectQLThueXe.Domain.DTOs;
+using ProjectQLThueXe.Domain.Models;
 using ProjectQLThueXe.Domain.Entities;
 
 namespace ProjectQLThueXe.WebAPI.Controllers
@@ -51,17 +51,17 @@ namespace ProjectQLThueXe.WebAPI.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateKCT(Guid id, KCTDTO kctDTO)
+        public async Task<IActionResult> UpdateKCT(Guid id, KCTVM kctVM)
         {
             try
             {
                 var _updated = await _mediator.Send(new UpdateKCTCommand
                 {
                     KCT_ID = id,
-                    KCT_Name = kctDTO.KCT_Name,
-                    KCT_Phone = kctDTO.KCT_Phone,
-                    KCT_Address = kctDTO.KCT_Address,
-                    KCT_CCCD = kctDTO.KCT_CCCD,
+                    KCT_Name = kctVM.KCT_Name,
+                    KCT_Phone = kctVM.KCT_Phone,
+                    KCT_Address = kctVM.KCT_Address,
+                    KCT_CCCD = kctVM.KCT_CCCD,
                 });
                 if (_updated != null)
                 {
@@ -76,16 +76,16 @@ namespace ProjectQLThueXe.WebAPI.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<KCT>> AddNewKCT(KCTDTO kctDTO)
+        public async Task<ActionResult<KCT>> AddNewKCT(KCTVM kctVM)
         {
             try
             {
                 var _created = await _mediator.Send(new CreateKCTCommand
                 {
-                    KCT_Name = kctDTO.KCT_Name,
-                    KCT_Phone = kctDTO.KCT_Phone,
-                    KCT_Address = kctDTO.KCT_Address,
-                    KCT_CCCD = kctDTO.KCT_CCCD
+                    KCT_Name = kctVM.KCT_Name,
+                    KCT_Phone = kctVM.KCT_Phone,
+                    KCT_Address = kctVM.KCT_Address,
+                    KCT_CCCD = kctVM.KCT_CCCD
                 });
                 if (_created != null)
                 {

@@ -10,21 +10,27 @@ using ProjectQLThueXe.Domain.Interfaces;
 using ProjectQLThueXe.Infrastructure.DBContext;
 using ProjectQLThueXe.Infrastructure.Repositories;
 
+var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 // Use ReferenceHandler.Preserve
-builder.Services.AddControllers().AddJsonOptions(options =>
-{
-    options.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.Preserve;
-}); ;
+builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-//add automapper
-builder.Services.AddAutoMapper(typeof(Program).Assembly);
+//add cors
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: MyAllowSpecificOrigins, policy =>
+    {
+        policy.AllowAnyOrigin()    
+              .AllowAnyHeader()   
+              .AllowAnyMethod();
+    });
+});
 
 // Register the repository
 builder.Services.AddScoped<ICarTypeRepository, CarTypeRepository>();
@@ -32,6 +38,7 @@ builder.Services.AddScoped<ICarRepository, CarRepository>();
 builder.Services.AddScoped<IKCTRepository, KCTRepository>();
 builder.Services.AddScoped<IKTRepository, KTRepository>();
 builder.Services.AddScoped<IReceiptRepository, ReceiptRepository>();
+builder.Services.AddScoped<IReceiptDetailRepository, ReceiptDetailRepository>();
 
 // Add MediatR And FluentValidation CarType
 builder.Services.AddMediatR(typeof(CreateCarTypeCommand).Assembly);
@@ -48,6 +55,10 @@ builder.Services.AddValidatorsFromAssembly(typeof(CreateKTCommnadValidator).Asse
 // Add MediatR And FluentValidation KCT
 builder.Services.AddMediatR(typeof(CreateReceiptCommand).Assembly);
 builder.Services.AddValidatorsFromAssembly(typeof(CreateReceiptCommandValidator).Assembly);
+// Add MediatR And FluentValidation Receipt
+builder.Services.AddMediatR(typeof(CreateReceiptCommand).Assembly);
+builder.Services.AddValidatorsFromAssembly(typeof (CreateReceiptCommandValidator).Assembly);
+
 
 // Add MyDB 
 builder.Services.AddDbContext<MyDBContext>(option =>
@@ -63,6 +74,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseCors(MyAllowSpecificOrigins);
 
 app.UseHttpsRedirection();
 

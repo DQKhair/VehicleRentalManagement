@@ -13,10 +13,12 @@ namespace ProjectQLThueXe.Application.Car.Commands
         {
             RuleFor(e => e.Model).NotEmpty().WithMessage("Model is required.")
                 .MaximumLength(50);
-
             RuleFor(e => e.Price).NotEmpty().WithMessage("Price is required.")
                 .InclusiveBetween(1, 100000000).WithMessage("Price must be between 1 and 100,000,000.");
-
+            RuleFor(e => e.NumberPlate).NotEmpty().WithMessage("Number Plate is required.")
+                .MaximumLength(12);
+            RuleFor(e => e.location).NotEmpty().WithMessage("Location is required.")
+                .MaximumLength(100);
         }
     }
 }

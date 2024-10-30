@@ -71,6 +71,7 @@ namespace ProjectQLThueXe.Infrastructure.Repositories
                 {
                     _car.Model = car.Model;
                     _car.Price = car.Price;
+                    _car.NumberPlate = car.NumberPlate;
                     _car.location = car.location;
                     _car.status = car.status;
                     _car.CarType_ID = car.CarType_ID;
@@ -81,6 +82,26 @@ namespace ProjectQLThueXe.Infrastructure.Repositories
                 }    
             }
             return false;
+        }
+
+        public async Task<Car> UpdateLocationAsync(Guid id, string location)
+        {
+            if(String.IsNullOrEmpty(location))
+            {
+                return null!;
+            }
+            var _car = await _context.Cars.SingleOrDefaultAsync(e => e.Car_ID == id);
+            if (_car != null)
+            {
+                _car.location = location;
+                await _context.SaveChangesAsync();
+                var _updated = await _context.Cars.SingleOrDefaultAsync(e => e.Car_ID == id);
+                if (_updated != null)
+                {
+                    return _updated;
+                }
+            }
+            return null!; ;
         }
     }
 }

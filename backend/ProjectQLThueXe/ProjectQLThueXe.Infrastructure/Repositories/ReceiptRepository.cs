@@ -57,7 +57,7 @@ namespace ProjectQLThueXe.Infrastructure.Repositories
                     }   
                     await _context.SaveChangesAsync();
 
-                    var _createdReceipt = await _context.Receipts.Include(e => e.ReceiptDetails).SingleOrDefaultAsync(e => e.Receipt_ID == _createReceipt_ID);
+                    var _createdReceipt = await _context.Receipts.SingleOrDefaultAsync(e => e.Receipt_ID == _createReceipt_ID);
                     if (_createdReceipt != null)
                     {
                         return _createdReceipt;
@@ -75,7 +75,6 @@ namespace ProjectQLThueXe.Infrastructure.Repositories
         public async Task<IEnumerable<Receipts>> GetAllAsync()
         {
             return await _context.Receipts
-                         .Include(e => e.ReceiptDetails)
                              .ToListAsync();
         }
 
@@ -83,7 +82,7 @@ namespace ProjectQLThueXe.Infrastructure.Repositories
         {
            if(!String.IsNullOrEmpty(id.ToString()))
             {
-                var _receipt = await _context.Receipts.Include(e => e.ReceiptDetails).SingleOrDefaultAsync(e => e.Receipt_ID == id);
+                var _receipt = await _context.Receipts.SingleOrDefaultAsync(e => e.Receipt_ID == id);
                 if(_receipt != null)
                 {
                     return _receipt;
