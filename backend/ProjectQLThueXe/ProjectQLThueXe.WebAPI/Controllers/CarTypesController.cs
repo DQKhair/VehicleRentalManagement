@@ -13,6 +13,7 @@ using ProjectQLThueXe.Domain.DTOs;
 using ProjectQLThueXe.Infrastructure.DBContext;
 using ProjectQLThueXe.Domain.Models;
 using ProjectQLThueXe.Application.Mapping;
+using FluentValidation;
 
 namespace ProjectQLThueXe.WebAPI.Controllers
 {
@@ -20,7 +21,7 @@ namespace ProjectQLThueXe.WebAPI.Controllers
     [ApiController]
     public class CarTypesController : ControllerBase
     {
-        private readonly IMediator _mediator;
+        private readonly IMediator _mediator;       
 
         public CarTypesController(IMediator mediator)
         {
@@ -73,6 +74,17 @@ namespace ProjectQLThueXe.WebAPI.Controllers
         {
             try
             {
+                if (!ModelState.IsValid)
+                {
+                    return BadRequest(ModelState);
+                }
+
+                var _carTypeExist = await _mediator.Send(new GetCarTypeByNameQuery { CarTypeName = carTypeVM.CarTypeName });
+                if (_carTypeExist != null)
+                {
+                    return StatusCode(StatusCodes.Status400BadRequest, new { message = "This name already exists." });
+                }
+
                 string _updated = await _mediator.Send(new UpdateCarTypeCommand { CarType_ID = id, CarTypeName = carTypeVM.CarTypeName });
                 if (!String.IsNullOrEmpty(_updated))
                 {
@@ -91,7 +103,19 @@ namespace ProjectQLThueXe.WebAPI.Controllers
         {
             try
             {
+                var _carTypeExist = await _mediator.Send(new GetCarTypeByNameQuery { CarTypeName = carTypeVM.CarTypeName });
+                if(_carTypeExist != null)
+                {
+                    return StatusCode(StatusCodes.Status400BadRequest, new { message = "This name already exists." });
+                }
+
+                if (!ModelState.IsValid)
+                {
+                    return BadRequest(ModelState);
+                }
+
                 string _created = await _mediator.Send(new CreateCarTypeCommand { CarTypeName = carTypeVM.CarTypeName });
+
                 if(String.IsNullOrEmpty(_created))
                 {
                     return StatusCode(StatusCodes.Status400BadRequest);

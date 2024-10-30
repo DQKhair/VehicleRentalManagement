@@ -5,6 +5,7 @@ using ProjectQLThueXe.Application.KT.Commands;
 using ProjectQLThueXe.Application.KT.Queries;
 using ProjectQLThueXe.Domain.Models;
 using ProjectQLThueXe.Domain.Entities;
+using ProjectQLThueXe.Application.KCT.Queries;
 
 namespace ProjectQLThueXe.WebAPI.Controllers
 {
@@ -56,6 +57,29 @@ namespace ProjectQLThueXe.WebAPI.Controllers
         {
             try
             {
+                if (!ModelState.IsValid)
+                {
+                    return BadRequest(ModelState);
+                }
+                var _ktById = await _mediator.Send(new GetKTByIdQuery { KT_ID = id });
+                string oldCCCD = _ktById.KT_CCCD;
+                string oldPhone = _ktById.KT_Phone;
+                if(oldCCCD != ktVM.KT_CCCD)
+                {
+                    var _cccdExists = await _mediator.Send(new GetKTByCCCDQuery { KT_CCCD = ktVM.KT_CCCD });
+                    if (_cccdExists != null)
+                    {
+                        return StatusCode(StatusCodes.Status400BadRequest, new { message = "This CCCD already exists." });
+                    }
+                }
+                if(oldPhone != ktVM.KT_Phone)
+                {
+                    var _phoneExists = await _mediator.Send(new GetKTByPhoneQuery { KT_Phone = ktVM.KT_Phone });
+                    if (_phoneExists != null)
+                    {
+                        return StatusCode(StatusCodes.Status400BadRequest, new { message = "This Phone already exists." });
+                    }
+                }
                 var _updated = await _mediator.Send(new UpdateKTCommand
                 { 
                     KT_ID = id,
@@ -81,6 +105,20 @@ namespace ProjectQLThueXe.WebAPI.Controllers
         {
             try
             {
+                if (!ModelState.IsValid)
+                {
+                    return BadRequest(ModelState);
+                }
+                var _cccdExists = await _mediator.Send(new GetKTByCCCDQuery { KT_CCCD = ktVM.KT_CCCD });
+                var _phoneExists = await _mediator.Send(new GetKTByPhoneQuery { KT_Phone = ktVM.KT_Phone });
+                if (_phoneExists != null)
+                {
+                    return StatusCode(StatusCodes.Status400BadRequest, new { message = "This Phone already exists." });
+                }
+                if (_cccdExists != null)
+                {
+                    return StatusCode(StatusCodes.Status400BadRequest, new { message = "This CCCD already exists." });
+                }
                 var _created = await _mediator.Send(new CreateKTCommand 
                 {
                     KT_Name = ktVM.KT_Name,

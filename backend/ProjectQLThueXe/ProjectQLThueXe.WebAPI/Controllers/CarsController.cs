@@ -81,6 +81,20 @@ namespace ProjectQLThueXe.WebAPI.Controllers
         {
             try
             {
+                if (!ModelState.IsValid)
+                {
+                    return BadRequest(ModelState);
+                }
+                var _carById = await _mediator.Send(new GetCarByIdQuery { Car_ID = id });
+                string oldNumPlate = _carById.NumberPlate;
+                if(oldNumPlate != carVM.NumberPlate)
+                {
+                    var _numberPlateExists = await _mediator.Send(new GetCarByNumberPlateQuery { NumberPlate = carVM.NumberPlate });
+                    if (_numberPlateExists != null)
+                    {
+                        return StatusCode(StatusCodes.Status400BadRequest, new { message = "This number plate already exists." });
+                    }
+                }    
                 var _updated = await _mediator.Send(new UpdateCarCommand
                 {
                     Car_ID = id,
@@ -115,6 +129,15 @@ namespace ProjectQLThueXe.WebAPI.Controllers
         {
             try
             {
+                if (!ModelState.IsValid)
+                {
+                    return BadRequest(ModelState);
+                }
+                var _numberPlateExists = await _mediator.Send(new GetCarByNumberPlateQuery { NumberPlate = carVM.NumberPlate });
+                if (_numberPlateExists != null)
+                {
+                    return StatusCode(StatusCodes.Status400BadRequest, new { message = "This number plate already exists." });
+                }
                 var _created = await _mediator.Send(new CreateCarCommand
                 {
                     Model = carVM.Model,
@@ -167,6 +190,10 @@ namespace ProjectQLThueXe.WebAPI.Controllers
         {
             try
             {
+                if (!ModelState.IsValid)
+                {
+                    return BadRequest(ModelState);
+                }
                 var _updated = await _mediator.Send(new UpdateLocationCarCommand
                 {
                     Car_ID = id,

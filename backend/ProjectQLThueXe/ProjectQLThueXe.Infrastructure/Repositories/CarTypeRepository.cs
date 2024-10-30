@@ -62,6 +62,19 @@ namespace ProjectQLThueXe.Infrastructure.Repositories
             return null!;
         }
 
+        public async Task<CarType> GetByNameAsync(string carTypeName)
+        {
+           if(!String.IsNullOrEmpty(carTypeName))
+            {
+                var _cartype = await _context.CarTypes.FirstOrDefaultAsync(e => e.CarTypeName == carTypeName);
+                if( _cartype != null )
+                {
+                    return _cartype;
+                }    
+            }
+            return null!;
+        }
+
         public async Task<bool> UpdateAsync(int id, CarType carType)
         {
             if(id > 0 && carType != null)
@@ -76,5 +89,7 @@ namespace ProjectQLThueXe.Infrastructure.Repositories
             }
             return false;
         }
+
+       
     }
 }

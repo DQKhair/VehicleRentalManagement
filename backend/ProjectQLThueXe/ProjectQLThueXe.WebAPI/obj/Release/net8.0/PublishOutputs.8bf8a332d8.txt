@@ -7,6 +7,7 @@ D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ProjectQLThueXe.WebAPI\obj\Relea
 D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ProjectQLThueXe.WebAPI\obj\Release\net8.0\PubTmp\Out\Azure.Core.dll
 D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ProjectQLThueXe.WebAPI\obj\Release\net8.0\PubTmp\Out\Azure.Identity.dll
 D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ProjectQLThueXe.WebAPI\obj\Release\net8.0\PubTmp\Out\FluentValidation.dll
+D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ProjectQLThueXe.WebAPI\obj\Release\net8.0\PubTmp\Out\FluentValidation.AspNetCore.dll
 D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ProjectQLThueXe.WebAPI\obj\Release\net8.0\PubTmp\Out\FluentValidation.DependencyInjectionExtensions.dll
 D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ProjectQLThueXe.WebAPI\obj\Release\net8.0\PubTmp\Out\Humanizer.dll
 D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ProjectQLThueXe.WebAPI\obj\Release\net8.0\PubTmp\Out\MediatR.dll

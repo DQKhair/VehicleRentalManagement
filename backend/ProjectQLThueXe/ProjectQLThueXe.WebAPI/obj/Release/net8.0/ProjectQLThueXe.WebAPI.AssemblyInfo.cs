@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProjectQLThueXe.WebAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+60d2023683677872f77a9e041f5272217b15f0f9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cf955cff820bedeb1d1302a4f7292907a5baefbb")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProjectQLThueXe.WebAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProjectQLThueXe.WebAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

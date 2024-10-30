@@ -11,6 +11,7 @@ namespace ProjectQLThueXe.Domain.Interfaces
     {
         Task<IEnumerable<Car>> GetAllAsync();
         Task<Car> GetByIdAsync(Guid id);
+        Task<Car> GetByNumberPlate(string  numberPlate);
         Task<bool> AddAsync(Car car);
         Task<bool> UpdateAsync(Guid id, Car car);
         Task<bool> DeleteAsync(Guid id);

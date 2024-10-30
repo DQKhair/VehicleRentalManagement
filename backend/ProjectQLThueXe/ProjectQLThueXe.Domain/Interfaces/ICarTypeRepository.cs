@@ -14,5 +14,6 @@ namespace ProjectQLThueXe.Domain.Interfaces
         Task<bool> AddAsync(CarType carType);
         Task<bool> UpdateAsync(int id, CarType carType);
         Task<bool> DeleteAsync(int id);
+        Task<CarType> GetByNameAsync(string carTypeName);  
     }
 }

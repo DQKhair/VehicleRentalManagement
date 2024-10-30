@@ -3,36 +3,32 @@
   "WorkspaceRootPath": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{36A305F8-4127-4F3A-A0A0-96155B96395A}|ApplicationCore\\ProjectQLThueXe.Application.csproj|d:\\cozwork\\project_qlxe\\backend\\projectqlthuexe\\applicationcore\\receipt\\commands\\createreceiptcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36A305F8-4127-4F3A-A0A0-96155B96395A}|ApplicationCore\\ProjectQLThueXe.Application.csproj|solutionrelative:applicationcore\\receipt\\commands\\createreceiptcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5F88680C-BF44-4026-B775-7F4B346DF412}|ProjectQLThueXe.WebAPI\\ProjectQLThueXe.WebAPI.csproj|d:\\cozwork\\project_qlxe\\backend\\projectqlthuexe\\projectqlthuexe.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5F88680C-BF44-4026-B775-7F4B346DF412}|ProjectQLThueXe.WebAPI\\ProjectQLThueXe.WebAPI.csproj|solutionrelative:projectqlthuexe.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36A305F8-4127-4F3A-A0A0-96155B96395A}|ApplicationCore\\ProjectQLThueXe.Application.csproj|d:\\cozwork\\project_qlxe\\backend\\projectqlthuexe\\applicationcore\\kt\\commands\\updatektcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36A305F8-4127-4F3A-A0A0-96155B96395A}|ApplicationCore\\ProjectQLThueXe.Application.csproj|solutionrelative:applicationcore\\kt\\commands\\updatektcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5F88680C-BF44-4026-B775-7F4B346DF412}|ProjectQLThueXe.WebAPI\\ProjectQLThueXe.WebAPI.csproj|d:\\cozwork\\project_qlxe\\backend\\projectqlthuexe\\projectqlthuexe.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F88680C-BF44-4026-B775-7F4B346DF412}|ProjectQLThueXe.WebAPI\\ProjectQLThueXe.WebAPI.csproj|solutionrelative:projectqlthuexe.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36A305F8-4127-4F3A-A0A0-96155B96395A}|ApplicationCore\\ProjectQLThueXe.Application.csproj|d:\\cozwork\\project_qlxe\\backend\\projectqlthuexe\\applicationcore\\kt\\commands\\createktcommnadvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36A305F8-4127-4F3A-A0A0-96155B96395A}|ApplicationCore\\ProjectQLThueXe.Application.csproj|solutionrelative:applicationcore\\kt\\commands\\createktcommnadvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DE053577-1242-43F2-870E-6D4E3B47DCD4}|ProjectQLThueXe.Domain\\ProjectQLThueXe.Domain.csproj|d:\\cozwork\\project_qlxe\\backend\\projectqlthuexe\\projectqlthuexe.domain\\models\\kctvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE053577-1242-43F2-870E-6D4E3B47DCD4}|ProjectQLThueXe.Domain\\ProjectQLThueXe.Domain.csproj|solutionrelative:projectqlthuexe.domain\\models\\kctvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36A305F8-4127-4F3A-A0A0-96155B96395A}|ApplicationCore\\ProjectQLThueXe.Application.csproj|d:\\cozwork\\project_qlxe\\backend\\projectqlthuexe\\applicationcore\\kct\\commands\\updatekctcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36A305F8-4127-4F3A-A0A0-96155B96395A}|ApplicationCore\\ProjectQLThueXe.Application.csproj|solutionrelative:applicationcore\\kct\\commands\\updatekctcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DE053577-1242-43F2-870E-6D4E3B47DCD4}|ProjectQLThueXe.Domain\\ProjectQLThueXe.Domain.csproj|d:\\cozwork\\project_qlxe\\backend\\projectqlthuexe\\projectqlthuexe.domain\\models\\ktvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE053577-1242-43F2-870E-6D4E3B47DCD4}|ProjectQLThueXe.Domain\\ProjectQLThueXe.Domain.csproj|solutionrelative:projectqlthuexe.domain\\models\\ktvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36A305F8-4127-4F3A-A0A0-96155B96395A}|ApplicationCore\\ProjectQLThueXe.Application.csproj|d:\\cozwork\\project_qlxe\\backend\\projectqlthuexe\\applicationcore\\kct\\commands\\createkctcommnadvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36A305F8-4127-4F3A-A0A0-96155B96395A}|ApplicationCore\\ProjectQLThueXe.Application.csproj|solutionrelative:applicationcore\\kct\\commands\\createkctcommnadvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5F88680C-BF44-4026-B775-7F4B346DF412}|ProjectQLThueXe.WebAPI\\ProjectQLThueXe.WebAPI.csproj|d:\\cozwork\\project_qlxe\\backend\\projectqlthuexe\\projectqlthuexe.webapi\\controllers\\ktscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F88680C-BF44-4026-B775-7F4B346DF412}|ProjectQLThueXe.WebAPI\\ProjectQLThueXe.WebAPI.csproj|solutionrelative:projectqlthuexe.webapi\\controllers\\ktscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36A305F8-4127-4F3A-A0A0-96155B96395A}|ApplicationCore\\ProjectQLThueXe.Application.csproj|d:\\cozwork\\project_qlxe\\backend\\projectqlthuexe\\applicationcore\\car\\commands\\updatelocationcarcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36A305F8-4127-4F3A-A0A0-96155B96395A}|ApplicationCore\\ProjectQLThueXe.Application.csproj|solutionrelative:applicationcore\\car\\commands\\updatelocationcarcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5F88680C-BF44-4026-B775-7F4B346DF412}|ProjectQLThueXe.WebAPI\\ProjectQLThueXe.WebAPI.csproj|d:\\cozwork\\project_qlxe\\backend\\projectqlthuexe\\projectqlthuexe.webapi\\controllers\\kctscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F88680C-BF44-4026-B775-7F4B346DF412}|ProjectQLThueXe.WebAPI\\ProjectQLThueXe.WebAPI.csproj|solutionrelative:projectqlthuexe.webapi\\controllers\\kctscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36A305F8-4127-4F3A-A0A0-96155B96395A}|ApplicationCore\\ProjectQLThueXe.Application.csproj|d:\\cozwork\\project_qlxe\\backend\\projectqlthuexe\\applicationcore\\car\\commands\\updatecarcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36A305F8-4127-4F3A-A0A0-96155B96395A}|ApplicationCore\\ProjectQLThueXe.Application.csproj|solutionrelative:applicationcore\\car\\commands\\updatecarcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36A305F8-4127-4F3A-A0A0-96155B96395A}|ApplicationCore\\ProjectQLThueXe.Application.csproj|d:\\cozwork\\project_qlxe\\backend\\projectqlthuexe\\applicationcore\\car\\commands\\createcarcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36A305F8-4127-4F3A-A0A0-96155B96395A}|ApplicationCore\\ProjectQLThueXe.Application.csproj|solutionrelative:applicationcore\\car\\commands\\createcarcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5F88680C-BF44-4026-B775-7F4B346DF412}|ProjectQLThueXe.WebAPI\\ProjectQLThueXe.WebAPI.csproj|d:\\cozwork\\project_qlxe\\backend\\projectqlthuexe\\projectqlthuexe.webapi\\controllers\\carscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F88680C-BF44-4026-B775-7F4B346DF412}|ProjectQLThueXe.WebAPI\\ProjectQLThueXe.WebAPI.csproj|solutionrelative:projectqlthuexe.webapi\\controllers\\carscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,110 +38,101 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CreateReceiptCommandValidator.cs",
-              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\Receipt\\Commands\\CreateReceiptCommandValidator.cs",
-              "RelativeDocumentMoniker": "ApplicationCore\\Receipt\\Commands\\CreateReceiptCommandValidator.cs",
-              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\Receipt\\Commands\\CreateReceiptCommandValidator.cs",
-              "RelativeToolTip": "ApplicationCore\\Receipt\\Commands\\CreateReceiptCommandValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T10:06:07.626Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UpdateKTCommandValidator.cs",
-              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KT\\Commands\\UpdateKTCommandValidator.cs",
-              "RelativeDocumentMoniker": "ApplicationCore\\KT\\Commands\\UpdateKTCommandValidator.cs",
-              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KT\\Commands\\UpdateKTCommandValidator.cs",
-              "RelativeToolTip": "ApplicationCore\\KT\\Commands\\UpdateKTCommandValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T10:05:19.363Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CreateKTCommnadValidator.cs",
-              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KT\\Commands\\CreateKTCommnadValidator.cs",
-              "RelativeDocumentMoniker": "ApplicationCore\\KT\\Commands\\CreateKTCommnadValidator.cs",
-              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KT\\Commands\\CreateKTCommnadValidator.cs",
-              "RelativeToolTip": "ApplicationCore\\KT\\Commands\\CreateKTCommnadValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABNAAAAAAAAAA==",
+              "Title": "KCTVM.cs",
+              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ProjectQLThueXe.Domain\\Models\\KCTVM.cs",
+              "RelativeDocumentMoniker": "ProjectQLThueXe.Domain\\Models\\KCTVM.cs",
+              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ProjectQLThueXe.Domain\\Models\\KCTVM.cs",
+              "RelativeToolTip": "ProjectQLThueXe.Domain\\Models\\KCTVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T10:05:01.701Z",
+              "WhenOpened": "2024-10-30T17:17:13.983Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "UpdateKCTCommandValidator.cs",
-              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KCT\\Commands\\UpdateKCTCommandValidator.cs",
-              "RelativeDocumentMoniker": "ApplicationCore\\KCT\\Commands\\UpdateKCTCommandValidator.cs",
-              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KCT\\Commands\\UpdateKCTCommandValidator.cs",
-              "RelativeToolTip": "ApplicationCore\\KCT\\Commands\\UpdateKCTCommandValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Title": "KTVM.cs",
+              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ProjectQLThueXe.Domain\\Models\\KTVM.cs",
+              "RelativeDocumentMoniker": "ProjectQLThueXe.Domain\\Models\\KTVM.cs",
+              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ProjectQLThueXe.Domain\\Models\\KTVM.cs",
+              "RelativeToolTip": "ProjectQLThueXe.Domain\\Models\\KTVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T10:04:32.617Z",
+              "WhenOpened": "2024-10-30T17:15:52.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ProjectQLThueXe.WebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "ProjectQLThueXe.WebAPI\\appsettings.json",
+              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ProjectQLThueXe.WebAPI\\appsettings.json",
+              "RelativeToolTip": "ProjectQLThueXe.WebAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-30T17:14:01.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ProjectQLThueXe.WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "ProjectQLThueXe.WebAPI\\Program.cs",
+              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ProjectQLThueXe.WebAPI\\Program.cs",
+              "RelativeToolTip": "ProjectQLThueXe.WebAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T17:13:56.877Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "CreateKCTCommnadValidator.cs",
-              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KCT\\Commands\\CreateKCTCommnadValidator.cs",
-              "RelativeDocumentMoniker": "ApplicationCore\\KCT\\Commands\\CreateKCTCommnadValidator.cs",
-              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\KCT\\Commands\\CreateKCTCommnadValidator.cs",
-              "RelativeToolTip": "ApplicationCore\\KCT\\Commands\\CreateKCTCommnadValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA4AAAAAAAAAA==",
+              "Title": "KtsController.cs",
+              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ProjectQLThueXe.WebAPI\\Controllers\\KtsController.cs",
+              "RelativeDocumentMoniker": "ProjectQLThueXe.WebAPI\\Controllers\\KtsController.cs",
+              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ProjectQLThueXe.WebAPI\\Controllers\\KtsController.cs",
+              "RelativeToolTip": "ProjectQLThueXe.WebAPI\\Controllers\\KtsController.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAIwGQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T10:03:44.443Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UpdateLocationCarCommandValidator.cs",
-              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\Car\\Commands\\UpdateLocationCarCommandValidator.cs",
-              "RelativeDocumentMoniker": "ApplicationCore\\Car\\Commands\\UpdateLocationCarCommandValidator.cs",
-              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\Car\\Commands\\UpdateLocationCarCommandValidator.cs",
-              "RelativeToolTip": "ApplicationCore\\Car\\Commands\\UpdateLocationCarCommandValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T10:00:12.48Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CreateCarCommandValidator.cs",
-              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\Car\\Commands\\CreateCarCommandValidator.cs",
-              "RelativeDocumentMoniker": "ApplicationCore\\Car\\Commands\\CreateCarCommandValidator.cs",
-              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\Car\\Commands\\CreateCarCommandValidator.cs",
-              "RelativeToolTip": "ApplicationCore\\Car\\Commands\\CreateCarCommandValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T09:56:13.043Z",
+              "WhenOpened": "2024-10-30T16:38:35.848Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "UpdateCarCommandValidator.cs",
-              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\Car\\Commands\\UpdateCarCommandValidator.cs",
-              "RelativeDocumentMoniker": "ApplicationCore\\Car\\Commands\\UpdateCarCommandValidator.cs",
-              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ApplicationCore\\Car\\Commands\\UpdateCarCommandValidator.cs",
-              "RelativeToolTip": "ApplicationCore\\Car\\Commands\\UpdateCarCommandValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAoAAAAAAAAAA==",
+              "Title": "CarsController.cs",
+              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ProjectQLThueXe.WebAPI\\Controllers\\CarsController.cs",
+              "RelativeDocumentMoniker": "ProjectQLThueXe.WebAPI\\Controllers\\CarsController.cs",
+              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ProjectQLThueXe.WebAPI\\Controllers\\CarsController.cs",
+              "RelativeToolTip": "ProjectQLThueXe.WebAPI\\Controllers\\CarsController.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAwwF0AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T09:55:46.26Z",
+              "WhenOpened": "2024-10-30T16:36:58.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "KCTsController.cs",
+              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ProjectQLThueXe.WebAPI\\Controllers\\KCTsController.cs",
+              "RelativeDocumentMoniker": "ProjectQLThueXe.WebAPI\\Controllers\\KCTsController.cs",
+              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ProjectQLThueXe.WebAPI\\Controllers\\KCTsController.cs",
+              "RelativeToolTip": "ProjectQLThueXe.WebAPI\\Controllers\\KCTsController.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAkwEYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T16:33:09.406Z",
               "EditorCaption": ""
             }
           ]

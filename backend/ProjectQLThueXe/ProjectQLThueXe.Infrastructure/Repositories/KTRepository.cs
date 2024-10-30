@@ -43,6 +43,7 @@ namespace ProjectQLThueXe.Infrastructure.Repositories
             return false;
         }
 
+
         public async Task<IEnumerable<KT>> GetAllAsync()
         {
             return await _Context.KTs.ToListAsync();
@@ -53,6 +54,31 @@ namespace ProjectQLThueXe.Infrastructure.Repositories
             if(!String.IsNullOrEmpty(id.ToString()))
             {
                 var _kt = await _Context.KTs.SingleOrDefaultAsync(e => e.KT_ID == id);
+                if(_kt != null)
+                {
+                    return _kt;
+                }
+            }
+            return null!;
+        }
+        public async Task<KT> GetByCCCDAsync(string cccd)
+        {
+            if(!String.IsNullOrEmpty(cccd))
+            {
+                var _kt = await _Context.KTs.FirstOrDefaultAsync(e => e.KT_CCCD == cccd);
+                if (_kt != null)
+                {
+                   return _kt;
+                }
+            }
+            return null!;
+        }
+
+        public async Task<KT> GetByPhoneAsync(string phone)
+        {
+            if(!String.IsNullOrEmpty(phone))
+            {
+                var _kt = await _Context.KTs.FirstOrDefaultAsync(e => e.KT_Phone == phone);
                 if(_kt != null)
                 {
                     return _kt;

@@ -11,6 +11,8 @@ namespace ProjectQLThueXe.Domain.Interfaces
     {
         Task<IEnumerable<KCT>> GetAllAsync();
         Task<KCT> GetByIdAsync(Guid id);
+        Task<KCT> GetByCCCDAsync(string CCCD);
+        Task<KCT> GetByPhoneAsync(string Phone);
         Task<bool> AddAsync(KCT kct);
         Task<bool> UpdateAsync(Guid id, KCT kct);
         Task<bool> DeleteAsync(Guid id);

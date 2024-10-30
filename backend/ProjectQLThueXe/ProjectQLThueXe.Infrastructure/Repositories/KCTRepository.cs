@@ -61,6 +61,31 @@ namespace ProjectQLThueXe.Infrastructure.Repositories
             }
             return null!;
         }
+        public async Task<KCT> GetByCCCDAsync(string CCCD)
+        {
+            if(!String.IsNullOrEmpty(CCCD))
+            {
+                var _kct = await _Context.KCTs.FirstOrDefaultAsync(e => e.KCT_CCCD == CCCD);
+                if(_kct != null)
+                {
+                    return _kct;
+                }
+            }
+            return null!;
+        }
+
+        public async Task<KCT> GetByPhoneAsync(string Phone)
+        {
+            if(!String.IsNullOrEmpty(Phone))
+            {
+                var _kct = await _Context.KCTs.FirstOrDefaultAsync(e => e.KCT_Phone == Phone);
+                if(_kct != null)
+                {
+                    return _kct;
+                }
+            }
+            return null!;
+        }
 
         public async Task<bool> UpdateAsync(Guid id, KCT kct)
         {

@@ -42,7 +42,6 @@ namespace ProjectQLThueXe.Infrastructure.Repositories
             }
             return false;
         }
-
         public async Task<IEnumerable<Car>> GetAllAsync()
         {
             return await _context.Cars.ToListAsync();
@@ -58,6 +57,20 @@ namespace ProjectQLThueXe.Infrastructure.Repositories
                 {
                     return _car;
                 }    
+            }
+            return null!;
+        }
+
+        public async Task<Car> GetByNumberPlate(string numberPlate)
+        {
+            if(string.IsNullOrEmpty(numberPlate))
+            {
+                return null!;
+            }
+            var _car = await _context.Cars.FirstOrDefaultAsync(e => e.NumberPlate == numberPlate);
+            if (_car != null)
+            { 
+                return _car; 
             }
             return null!;
         }

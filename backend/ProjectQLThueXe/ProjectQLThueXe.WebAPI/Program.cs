@@ -1,4 +1,5 @@
 using FluentValidation;
+using FluentValidation.AspNetCore;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using ProjectQLThueXe.Application.Car.Commands;
@@ -43,21 +44,21 @@ builder.Services.AddScoped<IReceiptDetailRepository, ReceiptDetailRepository>();
 // Add MediatR And FluentValidation CarType
 builder.Services.AddMediatR(typeof(CreateCarTypeCommand).Assembly);
 builder.Services.AddValidatorsFromAssembly(typeof(CreateCarTypeCommandValidator).Assembly);
-// Add MediatR And FluentValidation Car
-builder.Services.AddMediatR(typeof(CreateCarCommand).Assembly);
-builder.Services.AddValidatorsFromAssembly(typeof(CreateCarCommandValidator).Assembly);
-// Add MediatR And FluentValidation KCT
-builder.Services.AddMediatR(typeof(CreateKCTCommand).Assembly);
-builder.Services.AddValidatorsFromAssembly(typeof(CreateKCTCommnadValidator).Assembly);
-// Add MediatR And FluentValidation KCT
-builder.Services.AddMediatR(typeof(CreateKTCommand).Assembly);
-builder.Services.AddValidatorsFromAssembly(typeof(CreateKTCommnadValidator).Assembly);
-// Add MediatR And FluentValidation KCT
-builder.Services.AddMediatR(typeof(CreateReceiptCommand).Assembly);
-builder.Services.AddValidatorsFromAssembly(typeof(CreateReceiptCommandValidator).Assembly);
-// Add MediatR And FluentValidation Receipt
-builder.Services.AddMediatR(typeof(CreateReceiptCommand).Assembly);
-builder.Services.AddValidatorsFromAssembly(typeof (CreateReceiptCommandValidator).Assembly);
+//// Add MediatR And FluentValidation Car
+//builder.Services.AddMediatR(typeof(CreateCarCommand).Assembly);
+//builder.Services.AddValidatorsFromAssembly(typeof(CreateCarCommandValidator).Assembly);
+//// Add MediatR And FluentValidation KCT
+//builder.Services.AddMediatR(typeof(CreateKCTCommand).Assembly);
+//builder.Services.AddValidatorsFromAssembly(typeof(CreateKCTCommnadValidator).Assembly);
+//// Add MediatR And FluentValidation KCT
+//builder.Services.AddMediatR(typeof(CreateKTCommand).Assembly);
+//builder.Services.AddValidatorsFromAssembly(typeof(CreateKTCommnadValidator).Assembly);
+//// Add MediatR And FluentValidation KCT
+//builder.Services.AddMediatR(typeof(CreateReceiptCommand).Assembly);
+//builder.Services.AddValidatorsFromAssembly(typeof(CreateReceiptCommandValidator).Assembly);
+//// Add MediatR And FluentValidation Receipt
+//builder.Services.AddMediatR(typeof(CreateReceiptCommand).Assembly);
+//builder.Services.AddValidatorsFromAssembly(typeof (CreateReceiptCommandValidator).Assembly);
 
 
 // Add MyDB 
