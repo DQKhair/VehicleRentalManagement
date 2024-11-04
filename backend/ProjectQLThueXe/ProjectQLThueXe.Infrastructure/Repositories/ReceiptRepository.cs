@@ -25,10 +25,16 @@ namespace ProjectQLThueXe.Infrastructure.Repositories
                 var _createReceipt_ID = Guid.NewGuid();
                 double _totalMoney = 0;
 
-                for (int i = 0;i < receiptVM.receiptDetails.Count; i++)
+                //get car by id
+                var _carById = await _context.Cars.SingleOrDefaultAsync(e => e.Car_ID == receiptVM.receiptDetails.Car_ID);
+                if(_carById == null)
                 {
-                    _totalMoney += receiptVM.receiptDetails[i].Car_Price * ((receiptVM.receiptDetails[i].TimeEnd - receiptVM.receiptDetails[i].TimeStart).Days);
-                }
+                    return null!;
+                }    
+                //for (int i = 0;i < receiptVM.receiptDetails.Count; i++)
+                //{
+                    _totalMoney += _carById.Price * ((receiptVM.receiptDetails.TimeEnd - receiptVM.receiptDetails.TimeStart).Days);
+                //}
 
                 var _newReceipt = new Receipts
                 {
@@ -36,25 +42,29 @@ namespace ProjectQLThueXe.Infrastructure.Repositories
                     totalMoney = _totalMoney,
                     ReceiptTime = DateTime.Now,
                     KT_ID = receiptVM.KT_ID,
+                    ReceiptStatus_ID = 2,
+                    ReceiptDescription = receiptVM.ReceiptDescription,
                 };
                 var _addedReceipt = await _context.Receipts.AddAsync(_newReceipt);
                 if(_addedReceipt != null)
                 {
-                    for(int j = 0; j < receiptVM.receiptDetails.Count; j++)
-                    {
+                    //for(int j = 0; j < receiptVM.receiptDetails.Count; j++)
+                    //{
                         var _newReceiptDetail = new ReceiptDetail
                         {
                             ReceiptDetail_ID = Guid.NewGuid(),
-                            Car_ID = receiptVM.receiptDetails[j].Car_ID,
-                            Car_model = receiptVM.receiptDetails[j].Car_Model,
-                            Car_Price = receiptVM.receiptDetails[j].Car_Price,
-                            TimeStart = receiptVM.receiptDetails[j].TimeStart,
-                            TimeEnd = receiptVM.receiptDetails[j].TimeEnd,
-                            TotalDay = (receiptVM.receiptDetails[j].TimeEnd - receiptVM.receiptDetails[j].TimeStart).Days,
+                            Car_ID = receiptVM.receiptDetails.Car_ID,
+                            Car_model = _carById.Model,
+                            Car_Price = _carById.Price,
+                            TimeStart = receiptVM.receiptDetails.TimeStart,
+                            TimeEnd = receiptVM.receiptDetails.TimeEnd,
+                            TotalDay = (receiptVM.receiptDetails.TimeEnd - receiptVM.receiptDetails.TimeStart).Days,
                             Receipt_ID = _createReceipt_ID
                         };
                         var addedReceiptDetail = await _context.ReceiptsDetail.AddAsync(_newReceiptDetail);
-                    }   
+                    //}
+                    //update status car
+                    _carById.status = false;
                     await _context.SaveChangesAsync();
 
                     var _createdReceipt = await _context.Receipts.SingleOrDefaultAsync(e => e.Receipt_ID == _createReceipt_ID);
@@ -66,6 +76,11 @@ namespace ProjectQLThueXe.Infrastructure.Repositories
             }
             return null!;
         }
+        public Task<bool> UpdateAsync(Guid id, Receipts receipts)
+        {
+            throw new NotImplementedException();
+        }
+
 
         public Task<bool> DeleteAsync(Guid id)
         {
@@ -90,10 +105,76 @@ namespace ProjectQLThueXe.Infrastructure.Repositories
             }
             return null!;
         }
-
-        public Task<bool> UpdateAsync(Guid id, Receipts receipts)
+        //delete
+        public async Task<Receipts> ConfirmRentCar(Guid id)
         {
-            throw new NotImplementedException();
+            var _receiptById = await _context.Receipts.SingleOrDefaultAsync(e => e.Receipt_ID == id);
+            if (_receiptById != null)
+            {
+                _receiptById.ReceiptStatus_ID = 2;
+                var _receiptDetail = await _context.ReceiptsDetail.FirstOrDefaultAsync(e => e.Receipt_ID == id);
+                if(_receiptDetail == null)
+                {
+                    return null!;
+                }    
+                var _carById = await _context.Cars.SingleOrDefaultAsync(e => e.Car_ID == _receiptDetail.Car_ID);
+                if(_carById == null)
+                {
+                    return null!;
+                } 
+                _carById.status = false;
+                await _context.SaveChangesAsync();
+                return _receiptById;
+            }
+            return null!;
+        }
+        //delete
+        public async Task<Receipts> RejectRentcar(Guid id)
+        {
+            var _receiptById = await _context.Receipts.SingleOrDefaultAsync(e => e.Receipt_ID == id);
+            if (_receiptById != null)
+            {
+                _receiptById.ReceiptStatus_ID = 3;
+                var _receiptDetail = await _context.ReceiptsDetail.FirstOrDefaultAsync(e => e.Receipt_ID == id);
+                if (_receiptDetail == null)
+                {
+                    return null!;
+                }
+                var _carById = await _context.Cars.SingleOrDefaultAsync(e => e.Car_ID == _receiptDetail.Car_ID);
+                if (_carById == null)
+                {
+                    return null!;
+                }
+                _carById.status = true;
+                await _context.SaveChangesAsync();
+                return _receiptById;
+            }
+            return null!;
+        }
+
+     
+        //delete
+        public async Task<Receipts> ConfirmReturnCar(Guid id)
+        {
+            var _receiptById = await _context.Receipts.SingleOrDefaultAsync(e => e.Receipt_ID == id);
+            if (_receiptById != null)
+            {
+                _receiptById.ReceiptStatus_ID = 4;
+                var _receiptDetail = await _context.ReceiptsDetail.FirstOrDefaultAsync(e => e.Receipt_ID == id);
+                if (_receiptDetail == null)
+                {
+                    return null!;
+                }
+                var _carById = await _context.Cars.SingleOrDefaultAsync(e => e.Car_ID == _receiptDetail.Car_ID);
+                if (_carById == null)
+                {
+                    return null!;
+                }
+                _carById.status = true;
+                await _context.SaveChangesAsync();
+                return _receiptById;
+            }
+            return null!;
         }
     }
 }

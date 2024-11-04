@@ -24,6 +24,8 @@ namespace ProjectQLThueXe.Domain.Entities
         [MaxLength(12)]
         [Required]
         public string KT_CCCD { get; set; } = string.Empty;
+        [Required]
+        public string Password { get; set; } = string.Empty;
 
         public ICollection<Receipts> Receipts { get; set; }
 

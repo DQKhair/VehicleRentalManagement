@@ -24,7 +24,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Authentication\Commands\" />
+    <Folder Include="History\Commands\" />
     <Folder Include="ReceiptDetail\Commands\" />
+    <Folder Include="ReceiptStatus\Commands\" />
   </ItemGroup>
 
 </Project>

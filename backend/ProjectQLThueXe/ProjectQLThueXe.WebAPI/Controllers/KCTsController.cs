@@ -20,6 +20,10 @@ namespace ProjectQLThueXe.WebAPI.Controllers
             _mediator = mediator;
         }
 
+        /// <summary>
+        /// Get all car rental provider
+        /// </summary>
+        /// <returns>Return list car rental provider</returns>
         [HttpGet]
         public async Task<ActionResult<IEnumerable<KCT>>> GetAllKCTs()
         {
@@ -33,6 +37,11 @@ namespace ProjectQLThueXe.WebAPI.Controllers
             }
         }
 
+        /// <summary>
+        /// Get car rental provider by ID
+        /// </summary>
+        /// <param name="id">car rental provider ID (KCT_ID)</param>
+        /// <returns>Return car rental provider information with status code 200</returns>
         [HttpGet("{id}")]
         public async Task<ActionResult<KCT>> GetKCTById(Guid id)
         {
@@ -51,6 +60,12 @@ namespace ProjectQLThueXe.WebAPI.Controllers
             }
         }
 
+        /// <summary>
+        /// Update car rental provider information
+        /// </summary>
+        /// <param name="id">car rental provider ID (KCT_ID)</param>
+        /// <param name="kctVM">other infomation car rental provider</param>
+        /// <returns>Return updated car rental provider infomation with status code 200</returns>
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateKCT(Guid id, KCTVM kctVM)
         {
@@ -100,6 +115,11 @@ namespace ProjectQLThueXe.WebAPI.Controllers
             }
         }
 
+        /// <summary>
+        /// Add new car rental provider
+        /// </summary>
+        /// <param name="kctVM">Car rental provider infomation</param>
+        /// <returns>Return added car rental provider information with status code 200</returns>
         [HttpPost]
         public async Task<ActionResult<KCT>> AddNewKCT(KCTVM kctVM)
         {
@@ -138,6 +158,11 @@ namespace ProjectQLThueXe.WebAPI.Controllers
             }
         }
 
+        /// <summary>
+        /// Delete car rental provider by ID
+        /// </summary>
+        /// <param name="id">Car rental provider ID (KCT_ID)</param>
+        /// <returns>Return message success with status code 200</returns>
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteKCT(Guid id)
         {

@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ProjectQLThueXe.WebAPI\\wwwroot\\Images\\d47469a9-e5c6-4d4a-bd3b-e729d588c8ef_FordEverest.jpg",
+      "PackagePath": "staticwebassets\\Images\\d47469a9-e5c6-4d4a-bd3b-e729d588c8ef_FordEverest.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ProjectQLThueXe.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ProjectQLThueXe.WebAPI.props",
+      "PackagePath": "build\\ProjectQLThueXe.WebAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ProjectQLThueXe.WebAPI.props",
+      "PackagePath": "buildMultiTargeting\\ProjectQLThueXe.WebAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ProjectQLThueXe.WebAPI.props",
+      "PackagePath": "buildTransitive\\ProjectQLThueXe.WebAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

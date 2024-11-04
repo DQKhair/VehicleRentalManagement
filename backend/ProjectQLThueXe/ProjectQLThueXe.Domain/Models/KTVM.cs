@@ -13,13 +13,17 @@ namespace ProjectQLThueXe.Domain.Models
         [MaxLength(50,ErrorMessage = "Name must be less than 50 characters")]
         public string KT_Name { get; set; }
         [Required]
-        [RegularExpression(@"^(03|05|07|08|09|01[2|6|8|9])\d{8}$", ErrorMessage = "Invalid phone number format.")]
-        public string KT_Phone { get; set; }
-        [Required]
         [MaxLength(100,ErrorMessage = "Address must be less than 100 characters")]
         public string KT_Address { get; set; }
         [Required]
         [MaxLength(12,ErrorMessage = "CCCD invalid")]
         public string KT_CCCD { get; set; }
+        [Required]
+        [RegularExpression(@"^(03|05|07|08|09|01[2|6|8|9])\d{8}$", ErrorMessage = "Invalid phone number format.")]
+        public string KT_Phone { get; set; }
+        [Required]
+        [MaxLength(50,ErrorMessage = "Password maximun 50 charactors.")]
+        [MinLength(3,ErrorMessage = "Password minimum 3 charactors")]
+        public string KT_Password { get; set; }
     }
 }

@@ -15,5 +15,8 @@ namespace ProjectQLThueXe.Domain.Interfaces
         Task<Receipts> AddAsync(ReceiptVM receiptVM);
         Task<bool> UpdateAsync(Guid id, Receipts receipts);
         Task<bool> DeleteAsync(Guid id);
+        Task<Receipts> ConfirmRentCar(Guid id);
+        Task<Receipts> RejectRentcar(Guid id);
+        Task<Receipts> ConfirmReturnCar(Guid id);
     }
 }

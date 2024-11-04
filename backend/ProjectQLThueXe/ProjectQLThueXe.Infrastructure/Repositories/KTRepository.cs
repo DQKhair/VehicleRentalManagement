@@ -105,5 +105,34 @@ namespace ProjectQLThueXe.Infrastructure.Repositories
             }
             return false;
         }
+
+       
+
+        public async Task<bool> CancelRentCar(Guid Car_ID, Guid kt_ID)
+        {
+            var _receiptCancel = await (from receipt in _Context.Receipts
+                                        join receiptDetail in _Context.ReceiptsDetail
+                                            on receipt.Receipt_ID equals receiptDetail.Receipt_ID
+                                        join car in _Context.Cars
+                                            on receiptDetail.Car_ID equals car.Car_ID
+                                        where receipt.KT_ID == kt_ID && receiptDetail.Car_ID == Car_ID && (receipt.ReceiptStatus_ID == 1 || receipt.ReceiptStatus_ID == 2)
+                                        select new
+                                        {
+                                            Receipt = receipt,
+                                            ReceiptDetail = receiptDetail,
+                                            Car = car
+                                        }).FirstOrDefaultAsync();
+            if(_receiptCancel != null)
+            {
+                if( _receiptCancel.ReceiptDetail.TimeStart > DateTime.Now)
+                {
+                    _receiptCancel.Receipt.ReceiptStatus_ID = 3;
+                    _receiptCancel.Car.status = true;
+                    await _Context.SaveChangesAsync();
+                    return true;
+                }
+            }    
+            return false;
+        }
     }
 }

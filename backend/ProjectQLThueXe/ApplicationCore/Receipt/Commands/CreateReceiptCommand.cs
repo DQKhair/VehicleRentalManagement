@@ -12,6 +12,7 @@ namespace ProjectQLThueXe.Application.Receipt.Commands
     public class CreateReceiptCommand : IRequest<Receipts>
     {
         public Guid KT_ID { get; set; }
-        public List<ReceiptDetailVM> receiptDetails { get; set; } = new List<ReceiptDetailVM>();
+        public string? ReceiptDescription { get; set; }
+        public ReceiptDetailVM receiptDetails { get; set; }
     }
 }

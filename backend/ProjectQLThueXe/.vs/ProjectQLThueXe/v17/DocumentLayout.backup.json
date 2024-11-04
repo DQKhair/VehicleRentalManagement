@@ -3,32 +3,8 @@
   "WorkspaceRootPath": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5F88680C-BF44-4026-B775-7F4B346DF412}|ProjectQLThueXe.WebAPI\\ProjectQLThueXe.WebAPI.csproj|d:\\cozwork\\project_qlxe\\backend\\projectqlthuexe\\projectqlthuexe.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5F88680C-BF44-4026-B775-7F4B346DF412}|ProjectQLThueXe.WebAPI\\ProjectQLThueXe.WebAPI.csproj|solutionrelative:projectqlthuexe.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F88680C-BF44-4026-B775-7F4B346DF412}|ProjectQLThueXe.WebAPI\\ProjectQLThueXe.WebAPI.csproj|d:\\cozwork\\project_qlxe\\backend\\projectqlthuexe\\projectqlthuexe.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F88680C-BF44-4026-B775-7F4B346DF412}|ProjectQLThueXe.WebAPI\\ProjectQLThueXe.WebAPI.csproj|solutionrelative:projectqlthuexe.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE053577-1242-43F2-870E-6D4E3B47DCD4}|ProjectQLThueXe.Domain\\ProjectQLThueXe.Domain.csproj|d:\\cozwork\\project_qlxe\\backend\\projectqlthuexe\\projectqlthuexe.domain\\models\\kctvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE053577-1242-43F2-870E-6D4E3B47DCD4}|ProjectQLThueXe.Domain\\ProjectQLThueXe.Domain.csproj|solutionrelative:projectqlthuexe.domain\\models\\kctvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE053577-1242-43F2-870E-6D4E3B47DCD4}|ProjectQLThueXe.Domain\\ProjectQLThueXe.Domain.csproj|d:\\cozwork\\project_qlxe\\backend\\projectqlthuexe\\projectqlthuexe.domain\\models\\ktvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE053577-1242-43F2-870E-6D4E3B47DCD4}|ProjectQLThueXe.Domain\\ProjectQLThueXe.Domain.csproj|solutionrelative:projectqlthuexe.domain\\models\\ktvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F88680C-BF44-4026-B775-7F4B346DF412}|ProjectQLThueXe.WebAPI\\ProjectQLThueXe.WebAPI.csproj|d:\\cozwork\\project_qlxe\\backend\\projectqlthuexe\\projectqlthuexe.webapi\\controllers\\ktscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F88680C-BF44-4026-B775-7F4B346DF412}|ProjectQLThueXe.WebAPI\\ProjectQLThueXe.WebAPI.csproj|solutionrelative:projectqlthuexe.webapi\\controllers\\ktscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F88680C-BF44-4026-B775-7F4B346DF412}|ProjectQLThueXe.WebAPI\\ProjectQLThueXe.WebAPI.csproj|d:\\cozwork\\project_qlxe\\backend\\projectqlthuexe\\projectqlthuexe.webapi\\controllers\\kctscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F88680C-BF44-4026-B775-7F4B346DF412}|ProjectQLThueXe.WebAPI\\ProjectQLThueXe.WebAPI.csproj|solutionrelative:projectqlthuexe.webapi\\controllers\\kctscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F88680C-BF44-4026-B775-7F4B346DF412}|ProjectQLThueXe.WebAPI\\ProjectQLThueXe.WebAPI.csproj|d:\\cozwork\\project_qlxe\\backend\\projectqlthuexe\\projectqlthuexe.webapi\\controllers\\carscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F88680C-BF44-4026-B775-7F4B346DF412}|ProjectQLThueXe.WebAPI\\ProjectQLThueXe.WebAPI.csproj|solutionrelative:projectqlthuexe.webapi\\controllers\\carscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5F88680C-BF44-4026-B775-7F4B346DF412}|ProjectQLThueXe.WebAPI\\ProjectQLThueXe.WebAPI.csproj|d:\\cozwork\\project_qlxe\\backend\\projectqlthuexe\\projectqlthuexe.webapi\\controllers\\receiptscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F88680C-BF44-4026-B775-7F4B346DF412}|ProjectQLThueXe.WebAPI\\ProjectQLThueXe.WebAPI.csproj|solutionrelative:projectqlthuexe.webapi\\controllers\\receiptscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -37,8 +13,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "DockedWidth": 216,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,93 +22,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "KCTVM.cs",
-              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ProjectQLThueXe.Domain\\Models\\KCTVM.cs",
-              "RelativeDocumentMoniker": "ProjectQLThueXe.Domain\\Models\\KCTVM.cs",
-              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ProjectQLThueXe.Domain\\Models\\KCTVM.cs",
-              "RelativeToolTip": "ProjectQLThueXe.Domain\\Models\\KCTVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T17:17:13.983Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "KTVM.cs",
-              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ProjectQLThueXe.Domain\\Models\\KTVM.cs",
-              "RelativeDocumentMoniker": "ProjectQLThueXe.Domain\\Models\\KTVM.cs",
-              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ProjectQLThueXe.Domain\\Models\\KTVM.cs",
-              "RelativeToolTip": "ProjectQLThueXe.Domain\\Models\\KTVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T17:15:52.174Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ProjectQLThueXe.WebAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "ProjectQLThueXe.WebAPI\\appsettings.json",
-              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ProjectQLThueXe.WebAPI\\appsettings.json",
-              "RelativeToolTip": "ProjectQLThueXe.WebAPI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-30T17:14:01.946Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ProjectQLThueXe.WebAPI\\Program.cs",
-              "RelativeDocumentMoniker": "ProjectQLThueXe.WebAPI\\Program.cs",
-              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ProjectQLThueXe.WebAPI\\Program.cs",
-              "RelativeToolTip": "ProjectQLThueXe.WebAPI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAvAAAAAAAAAA==",
+              "Title": "ReceiptsController.cs",
+              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ProjectQLThueXe.WebAPI\\Controllers\\ReceiptsController.cs",
+              "RelativeDocumentMoniker": "ProjectQLThueXe.WebAPI\\Controllers\\ReceiptsController.cs",
+              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ProjectQLThueXe.WebAPI\\Controllers\\ReceiptsController.cs",
+              "RelativeToolTip": "ProjectQLThueXe.WebAPI\\Controllers\\ReceiptsController.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAIwF8AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T17:13:56.877Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "KtsController.cs",
-              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ProjectQLThueXe.WebAPI\\Controllers\\KtsController.cs",
-              "RelativeDocumentMoniker": "ProjectQLThueXe.WebAPI\\Controllers\\KtsController.cs",
-              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ProjectQLThueXe.WebAPI\\Controllers\\KtsController.cs",
-              "RelativeToolTip": "ProjectQLThueXe.WebAPI\\Controllers\\KtsController.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAIwGQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T16:38:35.848Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CarsController.cs",
-              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ProjectQLThueXe.WebAPI\\Controllers\\CarsController.cs",
-              "RelativeDocumentMoniker": "ProjectQLThueXe.WebAPI\\Controllers\\CarsController.cs",
-              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ProjectQLThueXe.WebAPI\\Controllers\\CarsController.cs",
-              "RelativeToolTip": "ProjectQLThueXe.WebAPI\\Controllers\\CarsController.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAwwF0AAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T16:36:58.932Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "KCTsController.cs",
-              "DocumentMoniker": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ProjectQLThueXe.WebAPI\\Controllers\\KCTsController.cs",
-              "RelativeDocumentMoniker": "ProjectQLThueXe.WebAPI\\Controllers\\KCTsController.cs",
-              "ToolTip": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ProjectQLThueXe.WebAPI\\Controllers\\KCTsController.cs",
-              "RelativeToolTip": "ProjectQLThueXe.WebAPI\\Controllers\\KCTsController.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAkwEYAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T16:33:09.406Z",
+              "WhenOpened": "2024-11-03T16:35:48.125Z",
               "EditorCaption": ""
             }
           ]

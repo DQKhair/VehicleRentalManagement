@@ -28,6 +28,10 @@ namespace ProjectQLThueXe.WebAPI.Controllers
             _mediator = mediator;
         }
 
+        /// <summary>
+        /// Get all car type
+        /// </summary>
+        /// <returns>Return list car type with status code 200</returns>
         [HttpGet]
         public async Task<ActionResult<IEnumerable<CarTypeDTO>>> GetALLCarTypes()
         {
@@ -48,6 +52,11 @@ namespace ProjectQLThueXe.WebAPI.Controllers
             
         }
 
+        /// <summary>
+        /// Get car type by ID
+        /// </summary>
+        /// <param name="id">Car type ID</param>
+        /// <returns>Return car type by ID with status code 200</returns>
         [HttpGet("{id}")]
         public async Task<ActionResult<CarType>> GetCarTypeById(int id)
         {
@@ -69,6 +78,12 @@ namespace ProjectQLThueXe.WebAPI.Controllers
             }
         }
 
+        /// <summary>
+        /// Update car type name
+        /// </summary>
+        /// <param name="id">Car type ID</param>
+        /// <param name="carTypeVM">Car type name</param>
+        /// <returns>Return updated car type information</returns>
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateCarType(int id, CarTypeVM carTypeVM)
         {
@@ -98,6 +113,11 @@ namespace ProjectQLThueXe.WebAPI.Controllers
             }
         }
 
+        /// <summary>
+        /// Add new car type
+        /// </summary>
+        /// <param name="carTypeVM">New car type name</param>
+        /// <returns>Return car type with status code 201</returns>
         [HttpPost]
         public async Task<ActionResult<CarType>> AddNewCarType(CarTypeVM carTypeVM)
         {
@@ -128,6 +148,11 @@ namespace ProjectQLThueXe.WebAPI.Controllers
             }
         }
 
+        /// <summary>
+        /// Delete car type by ID
+        /// </summary>
+        /// <param name="id">Car type ID</param>
+        /// <returns>Return message success with status code 200</returns>
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteCarType(int id)
         {

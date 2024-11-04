@@ -16,12 +16,17 @@ namespace ProjectQLThueXe.Domain.Entities
         [Range(0,100000000)]
         public double totalMoney { get; set; }
         public DateTime ReceiptTime { get; set; } = DateTime.Now;
+        [MaxLength(200)]
+        public string? ReceiptDescription { get; set; }
 
         public Guid? KT_ID { get; set; }
         [ForeignKey(nameof(KT_ID))]
+        public int? ReceiptStatus_ID { get; set; }
+        [ForeignKey(nameof(ReceiptStatus_ID))]
 
         //relationship
         public KT? KT { get; set; }
+        public ReceiptStatus? ReceiptStatus { get; set; }
 
         public ICollection<ReceiptDetail> ReceiptDetails { get; set; }
 

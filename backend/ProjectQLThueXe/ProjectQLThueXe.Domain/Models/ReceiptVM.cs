@@ -12,6 +12,9 @@ namespace ProjectQLThueXe.Domain.Models
     {
         [Required]
         public Guid KT_ID { get; set; }
-        public List<ReceiptDetailVM> receiptDetails { get; set; } = new List<ReceiptDetailVM>();
+        [MaxLength(200)]
+        public string? ReceiptDescription { get; set; } = string.Empty;
+        [Required]
+        public ReceiptDetailVM receiptDetails { get; set; }
     }
 }

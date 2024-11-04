@@ -28,6 +28,9 @@ namespace ProjectQLThueXe.Infrastructure.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<int?>("CarStatus_ID")
+                        .HasColumnType("int");
+
                     b.Property<int?>("CarType_ID")
                         .HasColumnType("int");
 
@@ -47,8 +50,17 @@ namespace ProjectQLThueXe.Infrastructure.Migrations
                     b.Property<double>("Price")
                         .HasColumnType("float");
 
+                    b.Property<string>("URLImage")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("location")
                         .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("locationX")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("locationY")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("status")
@@ -56,11 +68,31 @@ namespace ProjectQLThueXe.Infrastructure.Migrations
 
                     b.HasKey("Car_ID");
 
+                    b.HasIndex("CarStatus_ID");
+
                     b.HasIndex("CarType_ID");
 
                     b.HasIndex("KCT_ID");
 
                     b.ToTable("Car", (string)null);
+                });
+
+            modelBuilder.Entity("ProjectQLThueXe.Domain.Entities.CarStatus", b =>
+                {
+                    b.Property<int>("CarStatus_ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CarStatus_ID"));
+
+                    b.Property<string>("CarStatusName")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.HasKey("CarStatus_ID");
+
+                    b.ToTable("CarStatus", (string)null);
                 });
 
             modelBuilder.Entity("ProjectQLThueXe.Domain.Entities.CarType", b =>
@@ -138,6 +170,10 @@ namespace ProjectQLThueXe.Infrastructure.Migrations
                         .HasMaxLength(12)
                         .HasColumnType("nvarchar(12)");
 
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.HasKey("KT_ID");
 
                     b.ToTable("KT", (string)null);
@@ -181,6 +217,24 @@ namespace ProjectQLThueXe.Infrastructure.Migrations
                     b.ToTable("ReceiptDetail", (string)null);
                 });
 
+            modelBuilder.Entity("ProjectQLThueXe.Domain.Entities.ReceiptStatus", b =>
+                {
+                    b.Property<int>("ReceiptStatus_ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ReceiptStatus_ID"));
+
+                    b.Property<string>("ReceiptstatusName")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.HasKey("ReceiptStatus_ID");
+
+                    b.ToTable("ReceiptStatus", (string)null);
+                });
+
             modelBuilder.Entity("ProjectQLThueXe.Domain.Entities.Receipts", b =>
                 {
                     b.Property<Guid>("Receipt_ID")
@@ -189,6 +243,13 @@ namespace ProjectQLThueXe.Infrastructure.Migrations
 
                     b.Property<Guid?>("KT_ID")
                         .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("ReceiptDescription")
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
+
+                    b.Property<int?>("ReceiptStatus_ID")
+                        .HasColumnType("int");
 
                     b.Property<DateTime>("ReceiptTime")
                         .HasColumnType("datetime2");
@@ -200,11 +261,18 @@ namespace ProjectQLThueXe.Infrastructure.Migrations
 
                     b.HasIndex("KT_ID");
 
+                    b.HasIndex("ReceiptStatus_ID");
+
                     b.ToTable("Receipts", (string)null);
                 });
 
             modelBuilder.Entity("ProjectQLThueXe.Domain.Entities.Car", b =>
                 {
+                    b.HasOne("ProjectQLThueXe.Domain.Entities.CarStatus", "CarStatus")
+                        .WithMany("Cars")
+                        .HasForeignKey("CarStatus_ID")
+                        .HasConstraintName("FK_Car_CarStatus");
+
                     b.HasOne("ProjectQLThueXe.Domain.Entities.CarType", "CarType")
                         .WithMany("Cars")
                         .HasForeignKey("CarType_ID")
@@ -214,6 +282,8 @@ namespace ProjectQLThueXe.Infrastructure.Migrations
                         .WithMany("Cars")
                         .HasForeignKey("KCT_ID")
                         .HasConstraintName("FK_Car_KCT");
+
+                    b.Navigation("CarStatus");
 
                     b.Navigation("CarType");
 
@@ -244,12 +314,24 @@ namespace ProjectQLThueXe.Infrastructure.Migrations
                         .HasForeignKey("KT_ID")
                         .HasConstraintName("FK_Receipts_KT");
 
+                    b.HasOne("ProjectQLThueXe.Domain.Entities.ReceiptStatus", "ReceiptStatus")
+                        .WithMany("Receipts")
+                        .HasForeignKey("ReceiptStatus_ID")
+                        .HasConstraintName("FK_Receipt_ReceiptStatus");
+
                     b.Navigation("KT");
+
+                    b.Navigation("ReceiptStatus");
                 });
 
             modelBuilder.Entity("ProjectQLThueXe.Domain.Entities.Car", b =>
                 {
                     b.Navigation("ReceiptDetails");
+                });
+
+            modelBuilder.Entity("ProjectQLThueXe.Domain.Entities.CarStatus", b =>
+                {
+                    b.Navigation("Cars");
                 });
 
             modelBuilder.Entity("ProjectQLThueXe.Domain.Entities.CarType", b =>
@@ -263,6 +345,11 @@ namespace ProjectQLThueXe.Infrastructure.Migrations
                 });
 
             modelBuilder.Entity("ProjectQLThueXe.Domain.Entities.KT", b =>
+                {
+                    b.Navigation("Receipts");
+                });
+
+            modelBuilder.Entity("ProjectQLThueXe.Domain.Entities.ReceiptStatus", b =>
                 {
                     b.Navigation("Receipts");
                 });

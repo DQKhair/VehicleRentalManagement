@@ -23,6 +23,7 @@ namespace ProjectQLThueXe.Application.Receipt.Commands
             var _receiptVM = new ReceiptVM
             {
                 KT_ID = request.KT_ID,
+                ReceiptDescription = request.ReceiptDescription,
                 receiptDetails = request.receiptDetails,
             };
             var addedReceipt = await _receiptRepository.AddAsync(_receiptVM);

@@ -1,5 +1,31 @@
 [
   {
+    "ContainingType": "ProjectQLThueXe.WebAPI.Controllers.AuthenticationsController",
+    "Method": "Login",
+    "RelativePath": "api/Authentications/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginVM",
+        "Type": "ProjectQLThueXe.Domain.Models.LoginVM",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ProjectQLThueXe.Domain.DTOs.LoginDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "ProjectQLThueXe.WebAPI.Controllers.CarsController",
     "Method": "GetCars",
     "RelativePath": "api/Cars",
@@ -28,9 +54,44 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "carVM",
-        "Type": "ProjectQLThueXe.Domain.Models.CarVM",
-        "IsRequired": true
+        "Name": "Images",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "Model",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "NumberPlate",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Price",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "Location",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Status",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "CarType_ID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "KCT_ID",
+        "Type": "System.Guid",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": [
@@ -112,6 +173,27 @@
     "Parameters": [
       {
         "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectQLThueXe.WebAPI.Controllers.CarsController",
+    "Method": "ConfirmReturn",
+    "RelativePath": "api/Cars/confirmReturn/{id}/{kt_ID}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "kt_ID",
         "Type": "System.Guid",
         "IsRequired": true
       }
@@ -257,6 +339,52 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjectQLThueXe.WebAPI.Controllers.HistoriesController",
+    "Method": "GetKTRent",
+    "RelativePath": "api/Histories/kt_rent",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ProjectQLThueXe.Domain.DTOs.KTRentDTO, ProjectQLThueXe.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ProjectQLThueXe.WebAPI.Controllers.HistoriesController",
+    "Method": "GetKTRentById",
+    "RelativePath": "api/Histories/kt_rent/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ProjectQLThueXe.Domain.DTOs.KTRentDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "ProjectQLThueXe.WebAPI.Controllers.KCTsController",
@@ -477,6 +605,27 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "ProjectQLThueXe.WebAPI.Controllers.KtsController",
+    "Method": "CancelRentCar",
+    "RelativePath": "api/Kts/cancelRentCar/{car_ID}/{kt_ID}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "car_ID",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "kt_ID",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ProjectQLThueXe.WebAPI.Controllers.ReceiptsController",
     "Method": "GetAllReceipts",
     "RelativePath": "api/Receipts",
@@ -527,6 +676,84 @@
     "Method": "GetReceiptById",
     "RelativePath": "api/Receipts/{id}",
     "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ProjectQLThueXe.Domain.DTOs.ReceiptDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ProjectQLThueXe.WebAPI.Controllers.ReceiptsController",
+    "Method": "ConfirmReturnCar",
+    "RelativePath": "api/Receipts/confirm_return_car/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ProjectQLThueXe.Domain.DTOs.ReceiptDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ProjectQLThueXe.WebAPI.Controllers.ReceiptsController",
+    "Method": "ConfirmRentCar",
+    "RelativePath": "api/Receipts/Confirm/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ProjectQLThueXe.Domain.DTOs.ReceiptDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ProjectQLThueXe.WebAPI.Controllers.ReceiptsController",
+    "Method": "RejectRentCar",
+    "RelativePath": "api/Receipts/reject/{id}",
+    "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [

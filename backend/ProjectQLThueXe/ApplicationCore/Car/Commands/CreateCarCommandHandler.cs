@@ -1,15 +1,16 @@
 ﻿using MediatR;
-using CarVM = ProjectQLThueXe.Domain.Entities;
+using Entity = ProjectQLThueXe.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ProjectQLThueXe.Domain.Interfaces;
+using ProjectQLThueXe.Domain.Models;
 
 namespace ProjectQLThueXe.Application.Car.Commands
 {
-    class CreateCarCommandHandler : IRequestHandler<CreateCarCommand, CarVM::Car>
+    class CreateCarCommandHandler : IRequestHandler<CreateCarCommand, Entity::Car>
     {
         private readonly ICarRepository _carRepository;
         public CreateCarCommandHandler(ICarRepository carRepository)
@@ -17,21 +18,20 @@ namespace ProjectQLThueXe.Application.Car.Commands
             _carRepository = carRepository;
         }
 
-        public async Task<CarVM::Car> Handle(CreateCarCommand request, CancellationToken cancellationToken)
+        public async Task<Entity::Car> Handle(CreateCarCommand request, CancellationToken cancellationToken)
         {
-            var _car = new CarVM::Car
+            var _postCarVM = new PostCarVM
             {
-                Car_ID = Guid.NewGuid(),
                 Model = request.Model,
                 NumberPlate = request.NumberPlate,
                 Price = request.Price,
-                location = request.location,
-                status = request.status,
+                Location = request.location,
+                Status = request.status,
                 CarType_ID = request.CarType_ID,
                 KCT_ID = request.KCT_ID,
+                Images = request.Image
             };
-            await _carRepository.AddAsync(_car);
-            return _car;
+            return await _carRepository.AddAsync(_postCarVM); ;
         }
     }
 }

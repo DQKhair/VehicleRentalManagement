@@ -269,3 +269,5 @@ D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ProjectQLThueXe.WebAPI\obj\Relea
 D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ProjectQLThueXe.WebAPI\obj\Release\net8.0\ProjectQLThueXe.WebAPI.genruntimeconfig.cache
 D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ProjectQLThueXe.WebAPI\obj\Release\net8.0\ref\ProjectQLThueXe.WebAPI.dll
 D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ProjectQLThueXe.WebAPI\bin\Release\net8.0\FluentValidation.AspNetCore.dll
+D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ProjectQLThueXe.WebAPI\bin\Release\net8.0\BCrypt.Net-Next.dll
+D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ProjectQLThueXe.WebAPI\bin\Release\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

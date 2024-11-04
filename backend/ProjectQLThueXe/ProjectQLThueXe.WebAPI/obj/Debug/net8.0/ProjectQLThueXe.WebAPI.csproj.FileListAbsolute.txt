@@ -269,3 +269,6 @@ D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ProjectQLThueXe.WebAPI\bin\Debug
 D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ProjectQLThueXe.WebAPI\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
 D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ProjectQLThueXe.WebAPI\obj\Debug\net8.0\ProjectQLThueXe.WebAPI.sourcelink.json
 D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ProjectQLThueXe.WebAPI\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ProjectQLThueXe.WebAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ProjectQLThueXe.WebAPI\bin\Debug\net8.0\BCrypt.Net-Next.dll
+D:\COZWork\project_QLXe\backend\ProjectQLThueXe\ProjectQLThueXe.WebAPI\bin\Debug\net8.0\ProjectQLThueXe.WebAPI.staticwebassets.runtime.json

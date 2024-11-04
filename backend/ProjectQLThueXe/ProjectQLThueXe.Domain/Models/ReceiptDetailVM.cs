@@ -11,9 +11,9 @@ namespace ProjectQLThueXe.Domain.Models
     {
         [Required]
         public Guid Car_ID { get; set; }
-        public string Car_Model { get; set; }
-        [Range(1,100000000)]
-        public double Car_Price { get; set; }
+        //public string Car_Model { get; set; }
+        //[Range(1,100000000)]
+        //public double Car_Price { get; set; }
         [Required]
         public DateTime TimeStart { get; set; }
         [Required]

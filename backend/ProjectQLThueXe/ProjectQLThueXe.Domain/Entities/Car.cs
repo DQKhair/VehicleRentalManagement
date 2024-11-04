@@ -5,6 +5,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
 
 namespace ProjectQLThueXe.Domain.Entities
 {
@@ -24,13 +25,19 @@ namespace ProjectQLThueXe.Domain.Entities
         public string NumberPlate { get; set; }
         public bool status { get; set; }
         public string location { get; set; } = string.Empty;
+        public string? locationX { get; set; }
+        public string? locationY { get; set; }
+        public string? URLImage { get; set; }
 
+        public int? CarStatus_ID { get; set; }
+        [ForeignKey(nameof(CarStatus_ID))]
         public int? CarType_ID { get; set; }
         [ForeignKey(nameof(CarType_ID))]
         public Guid? KCT_ID { get; set; }
         [ForeignKey(nameof(KCT_ID))]
 
         //relationship
+        public CarStatus? CarStatus { get; set; }
         public CarType? CarType { get; set; }
         public KCT? KCT { get; set; }
 

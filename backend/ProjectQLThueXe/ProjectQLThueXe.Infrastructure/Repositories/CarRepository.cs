@@ -1,10 +1,12 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using ProjectQLThueXe.Domain.Entities;
 using ProjectQLThueXe.Domain.Interfaces;
+using ProjectQLThueXe.Domain.Models;
 using ProjectQLThueXe.Infrastructure.DBContext;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.ConstrainedExecution;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -17,15 +19,47 @@ namespace ProjectQLThueXe.Infrastructure.Repositories
         {
             _context = context;
         }
-        public async Task<bool> AddAsync(Car car)
+        public async Task<Car> AddAsync(PostCarVM postCarVM)
         {
-            if(car != null )
+            if(postCarVM != null )
             {
-                await _context.Cars.AddAsync(car);
-                await _context.SaveChangesAsync();
-                return true;
-            }   
-            return false;
+                if (postCarVM.Images != null)
+                {
+                    var folderPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/Images");
+                    if(!Directory.Exists(folderPath))
+                    {
+                        Directory.CreateDirectory(folderPath);
+                    }
+                    string _imgPath = Guid.NewGuid().ToString() + "_" + postCarVM.Images.FileName;
+                    var _filePath = Path.Combine(folderPath, _imgPath);
+
+                    using(var stream = new FileStream(_filePath,FileMode.Create))
+                    {
+                        await postCarVM.Images.CopyToAsync(stream);
+                    }
+                    string _imageFile = $"/Image/{_imgPath}";
+                    var _car = new Car
+                    {
+                        Car_ID = Guid.NewGuid(),
+                        Model = postCarVM.Model,
+                        Price = postCarVM.Price,
+                        NumberPlate = postCarVM.NumberPlate,
+                        status = postCarVM.Status,
+                        location = postCarVM.Location,
+                        URLImage = _imageFile,
+                        CarStatus_ID = 1,
+                        CarType_ID = postCarVM.CarType_ID,
+                        KCT_ID = postCarVM.KCT_ID,
+                    };
+                    if(_car != null)
+                    {
+                        await _context.Cars.AddAsync(_car);
+                        await _context.SaveChangesAsync();
+                        return _car;
+                    }    
+                }
+            }
+            return null!;
         }
 
         public async Task<bool> DeleteAsync(Guid id)
@@ -115,6 +149,35 @@ namespace ProjectQLThueXe.Infrastructure.Repositories
                 }
             }
             return null!; ;
+        }
+
+        public async Task<Car> ReturnCarAsync(Guid id, Guid kt_ID)
+        {
+            if(!String.IsNullOrEmpty(id.ToString()))
+            {
+                var _result = await (from car in _context.Cars
+                                        join receiptDetail in _context.ReceiptsDetail
+                                            on car.Car_ID equals receiptDetail.Car_ID
+                                        join receipt in _context.Receipts
+                                            on receiptDetail.Receipt_ID equals receipt.Receipt_ID
+                                            where car.Car_ID == id && receipt.KT_ID == kt_ID && receipt.ReceiptStatus_ID == 2
+                                            select new {Car = car, Receipt = receipt, ReceiptDetail = receiptDetail}
+                                            ).FirstOrDefaultAsync();
+                if(_result != null)
+                {
+                    _result.Car.status = true;
+                    _result.Receipt.ReceiptStatus_ID = 4;
+                    await _context.SaveChangesAsync();
+
+                    var _carById = await _context.Cars.SingleOrDefaultAsync(e => e.Car_ID == id);
+                    if (_carById != null)
+                    {
+                        return _carById;
+                    }
+                }    
+               
+            }
+            return null!;
         }
     }
 }

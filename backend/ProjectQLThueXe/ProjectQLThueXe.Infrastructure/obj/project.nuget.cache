@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "jCQLeI/lVjc=",
+  "dgSpecHash": "g+kXY2BMJFY=",
   "success": true,
   "projectFilePath": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ProjectQLThueXe.Infrastructure\\ProjectQLThueXe.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jondd\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\jondd\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
+    "C:\\Users\\jondd\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\jondd\\.nuget\\packages\\fluentvalidation\\11.10.0\\fluentvalidation.11.10.0.nupkg.sha512",
     "C:\\Users\\jondd\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
     "C:\\Users\\jondd\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.10.0\\fluentvalidation.dependencyinjectionextensions.11.10.0.nupkg.sha512",

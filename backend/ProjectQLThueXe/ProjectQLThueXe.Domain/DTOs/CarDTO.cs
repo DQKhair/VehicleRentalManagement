@@ -14,6 +14,7 @@ namespace ProjectQLThueXe.Domain.DTOs
         public double Price { get; set; }
         public string Location { get; set; } = string.Empty;
         public bool Status { get; set; }
+        public string? URLImage { get; set; }
         public int? CarType_ID { get; set; }
         public string? CarTypeName { get; set; } = string.Empty;
         public Guid? KCT_ID {  get; set; }

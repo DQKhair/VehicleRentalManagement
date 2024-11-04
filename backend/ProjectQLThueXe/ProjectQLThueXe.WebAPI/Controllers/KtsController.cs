@@ -6,6 +6,12 @@ using ProjectQLThueXe.Application.KT.Queries;
 using ProjectQLThueXe.Domain.Models;
 using ProjectQLThueXe.Domain.Entities;
 using ProjectQLThueXe.Application.KCT.Queries;
+using ProjectQLThueXe.Domain.DTOs;
+using ProjectQLThueXe.Application.Receipt.Queries;
+using ProjectQLThueXe.Application.ReceiptDetail.Queries;
+using ProjectQLThueXe.Application.Mapping;
+using ProjectQLThueXe.Application.ReceiptStatus.Queries;
+using BCr = BCrypt.Net.BCrypt;
 
 namespace ProjectQLThueXe.WebAPI.Controllers
 {
@@ -19,6 +25,10 @@ namespace ProjectQLThueXe.WebAPI.Controllers
             _mediator = mediator;
         }
 
+        /// <summary>
+        /// Get all car renter
+        /// </summary>
+        /// <returns>Return list car renter</returns>
         [HttpGet]
         public async Task<ActionResult<IEnumerable<KT>>> GetAllKTs()
         {
@@ -34,6 +44,11 @@ namespace ProjectQLThueXe.WebAPI.Controllers
             }
         }
 
+        /// <summary>
+        /// Get car renter by ID
+        /// </summary>
+        /// <param name="id">car renter ID (KT_ID)</param>
+        /// <returns>Return car renter information with status code 200</returns>
         [HttpGet("{id}")]
         public async Task<ActionResult<KT>> GetKTById(Guid id)
         {
@@ -52,6 +67,12 @@ namespace ProjectQLThueXe.WebAPI.Controllers
             }
         }
 
+        /// <summary>
+        /// Update car renter information
+        /// </summary>
+        /// <param name="id">car renter ID (KT_ID)</param>
+        /// <param name="ktVM">other car renter information</param>
+        /// <returns>Return updated car renter information with status code 200</returns>
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateKt(Guid id, KTVM ktVM)
         {
@@ -100,6 +121,11 @@ namespace ProjectQLThueXe.WebAPI.Controllers
             }
         }
 
+        /// <summary>
+        /// Add new car renter
+        /// </summary>
+        /// <param name="ktVM">car renter information</param>
+        /// <returns>Return added car renter information with status code 201</returns>
         [HttpPost]
         public async Task<ActionResult<KT>> AddNewKT(KTVM ktVM)
         {
@@ -125,6 +151,7 @@ namespace ProjectQLThueXe.WebAPI.Controllers
                     KT_Phone = ktVM.KT_Phone,
                     KT_Address = ktVM.KT_Address,
                     KT_CCCD = ktVM.KT_CCCD,
+                    KT_Password = ConvertPasswordToHash(ktVM.KT_Password)
                 });
                 if (_created != null)
                 {
@@ -139,11 +166,20 @@ namespace ProjectQLThueXe.WebAPI.Controllers
             }
         }
 
+        /// <summary>
+        /// Delete car renter
+        /// </summary>
+        /// <param name="id">Car renter ID (KT_ID)</param>
+        /// <returns>Return message success with status code 200</returns>
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteKT(Guid id)
         {
             try
             {
+                if (!ModelState.IsValid)
+                {
+                    return BadRequest(ModelState);
+                }
                 string _deleted = await _mediator.Send(new DeleteKTCommand { KT_ID = id });
                 if(String.IsNullOrEmpty(_deleted))
                 {
@@ -155,6 +191,54 @@ namespace ProjectQLThueXe.WebAPI.Controllers
             {
                 return StatusCode(StatusCodes.Status500InternalServerError, ex);
             }
+        }
+
+        /// <summary>
+        /// Cencel rent car
+        /// </summary>
+        /// <param name="car_ID">Car ID (Car_ID)</param>
+        /// <param name="kt_ID">car renter ID (KT_ID)</param>
+        /// <returns>Return message success with status code 200</returns>
+        [HttpPut("cancelRentCar/{car_ID}/{kt_ID}")]
+        public async Task<IActionResult> CancelRentCar(Guid car_ID, Guid kt_ID)
+        {
+            try
+            {
+                if (!ModelState.IsValid)
+                {
+                    return BadRequest(ModelState);
+                }
+
+                if (car_ID == Guid.Empty || kt_ID == Guid.Empty)
+                {
+                    return StatusCode(StatusCodes.Status400BadRequest, new { message = "Invalid parameters" });
+                }
+
+                var _result = await _mediator.Send(new CancelRentCarCommand { Car_ID = car_ID, KT_ID = kt_ID });
+
+                if (_result != null)
+                {
+                    return StatusCode(StatusCodes.Status200OK, new { message = _result });
+                }
+
+                return StatusCode(StatusCodes.Status400BadRequest, new { message = "Failed to cancel" });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, new { message = ex.Message });
+            }
+        }
+
+        /// <summary>
+        /// Hash password
+        /// </summary>
+        /// <param name="password">Car renter password</param>
+        /// <returns>Return hash password</returns>
+        private string ConvertPasswordToHash(string password)
+        {
+            string salt = BCr.GenerateSalt(12);
+
+            return BCr.HashPassword(password, salt);
         }
     }
 }

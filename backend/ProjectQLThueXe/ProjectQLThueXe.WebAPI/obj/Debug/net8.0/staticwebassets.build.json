@@ -1,11 +1,39 @@
 {
   "Version": 1,
-  "Hash": "Vg7FJ/qVGkhs4b7LSquEV2xVjdzAvUR3RTqHr4a2RAY=",
+  "Hash": "mQYyltLpsex4O/YBuAT+X+OKwy9ipPb/6HyIERACGrQ=",
   "Source": "ProjectQLThueXe.WebAPI",
   "BasePath": "_content/ProjectQLThueXe.WebAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "ProjectQLThueXe.WebAPI\\wwwroot",
+      "Source": "ProjectQLThueXe.WebAPI",
+      "ContentRoot": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ProjectQLThueXe.WebAPI\\wwwroot\\",
+      "BasePath": "_content/ProjectQLThueXe.WebAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ProjectQLThueXe.WebAPI\\wwwroot\\Images\\d47469a9-e5c6-4d4a-bd3b-e729d588c8ef_FordEverest.jpg",
+      "SourceId": "ProjectQLThueXe.WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\COZWork\\project_QLXe\\backend\\ProjectQLThueXe\\ProjectQLThueXe.WebAPI\\wwwroot\\",
+      "BasePath": "_content/ProjectQLThueXe.WebAPI",
+      "RelativePath": "Images/d47469a9-e5c6-4d4a-bd3b-e729d588c8ef_FordEverest.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\d47469a9-e5c6-4d4a-bd3b-e729d588c8ef_FordEverest.jpg"
+    }
+  ]
 }

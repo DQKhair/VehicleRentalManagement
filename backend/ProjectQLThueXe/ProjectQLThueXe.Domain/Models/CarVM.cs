@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Http;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -18,9 +19,17 @@ namespace ProjectQLThueXe.Domain.Models
         [Required]
         [Range(1,100000000)]
         public double Price { get; set; }
+        [Required]
         public string Location { get; set; }
-        public bool Status { get; set; }
+        public bool Status { get; set; } = true;
         public int CarType_ID { get; set; }
         public Guid KCT_ID { get; set; }
+
+    }
+
+    public class PostCarVM : CarVM
+    {
+        [Required]
+        public IFormFile Images { get; set; }
     }
 }

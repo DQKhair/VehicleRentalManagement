@@ -6,17 +6,12 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <_PublishTargetUrl>D:\COZWork\project_QLXe\public</_PublishTargetUrl>
-    <History>True|2024-10-30T17:26:39.0468480Z||;True|2024-10-31T00:15:19.9528303+07:00||;True|2024-10-30T15:18:00.2762875+07:00||;True|2024-10-30T14:01:25.9000473+07:00||;True|2024-10-30T13:51:57.6830623+07:00||;False|2024-10-30T13:51:05.5863250+07:00||;True|2024-10-30T13:45:08.9545480+07:00||;False|2024-10-30T13:44:05.9221542+07:00||;True|2024-10-30T13:14:18.7397844+07:00||;</History>
+    <History>True|2024-11-01T08:42:27.2118717Z||;True|2024-11-01T11:37:14.9413273+07:00||;True|2024-11-01T10:47:09.9906617+07:00||;True|2024-11-01T10:32:53.1651113+07:00||;True|2024-11-01T10:27:28.6334821+07:00||;True|2024-11-01T10:11:08.8263522+07:00||;True|2024-11-01T09:40:35.2533737+07:00||;True|2024-11-01T08:16:12.4691877+07:00||;True|2024-10-31T17:12:41.0785705+07:00||;True|2024-10-31T15:37:50.0209759+07:00||;True|2024-10-31T13:25:32.7406618+07:00||;True|2024-10-31T08:18:11.1304876+07:00||;True|2024-10-31T08:15:37.3801298+07:00||;True|2024-10-31T08:13:04.6006612+07:00||;True|2024-10-31T00:26:39.0468480+07:00||;True|2024-10-31T00:15:19.9528303+07:00||;True|2024-10-30T15:18:00.2762875+07:00||;True|2024-10-30T14:01:25.9000473+07:00||;True|2024-10-30T13:51:57.6830623+07:00||;False|2024-10-30T13:51:05.5863250+07:00||;True|2024-10-30T13:45:08.9545480+07:00||;False|2024-10-30T13:44:05.9221542+07:00||;True|2024-10-30T13:14:18.7397844+07:00||;</History>
     <LastFailureDetails />
   </PropertyGroup>
   <ItemGroup>
     <DestinationConnectionStrings Include="MyDB">
       <Value>workstation id=khaik02.mssql.somee.com%3bpacket size=4096%3buser id=khai101099_SQLLogin_2%3bpwd=g44sauisum%3bdata source=khaik02.mssql.somee.com%3bpersist security info=False%3binitial catalog=khaik02%3bTrustServerCertificate=True</Value>
     </DestinationConnectionStrings>
-  </ItemGroup>
-  <ItemGroup>
-    <EFMigrations Include="ProjectQLThueXe.Infrastructure.DBContext.MyDBContext">
-      <Value>workstation id=khaik02.mssql.somee.com%3bpacket size=4096%3buser id=khai101099_SQLLogin_2%3bpwd=g44sauisum%3bdata source=khaik02.mssql.somee.com%3bpersist security info=False%3binitial catalog=khaik02%3bTrustServerCertificate=True</Value>
-    </EFMigrations>
   </ItemGroup>
 </Project>

@@ -26,6 +26,7 @@ namespace ProjectQLThueXe.Application.KT.Commands
                 KT_Phone = request.KT_Phone,
                 KT_Address = request.KT_Address,
                 KT_CCCD = request.KT_CCCD,
+                Password = request.KT_Password,
             };
             await _ktRepository.AddAsync(_kt);
             return _kt;

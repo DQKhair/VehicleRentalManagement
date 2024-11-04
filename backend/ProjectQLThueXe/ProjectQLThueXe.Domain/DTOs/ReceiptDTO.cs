@@ -14,9 +14,12 @@ namespace ProjectQLThueXe.Domain.DTOs
         public Guid Receipt_ID { get; set; }
         public double TotalMoney { get; set; }
         public DateTime ReceiptTime { get; set; }
+        public int? ReceiptStatus_ID { get; set; }
+        public string? ReceiptStatusName { get; set; }
         public Guid? KT_ID { get; set; }
         public string? KT_Name { get; set; }
-        public List<ReceiptDetailDTO>? ReceiptDetailDTOs { get; set; }
+        public ReceiptDetailDTO? ReceiptDetailDTOs { get; set; }
+        public string? ReceiptDescription { get; set; }
     }
 
     public class ReceiptDetailDTO
